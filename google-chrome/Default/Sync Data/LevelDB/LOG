@@ -1,0 +1,6 @@
+2022/10/07-12:52:55.512 3d6 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/10/07-12:52:55.512 3d6 Recovering log #9
+2022/10/07-12:52:55.514 3d6 Reusing old log /home/utkarsh/.config/google-chrome/Default/Sync Data/LevelDB/000009.log 
+2022/10/07-13:11:30.043 53a Level-0 table #13: started
+2022/10/07-13:11:30.050 53a Level-0 table #13: 137072 bytes OK
+2022/10/07-13:11:30.053 53a Delete type=0 #9

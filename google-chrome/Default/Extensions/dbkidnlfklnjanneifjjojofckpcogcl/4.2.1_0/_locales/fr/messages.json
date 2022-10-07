@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Ouvrez, éditez et partagez des fichiers PDF et Office dans votre navigateur. Simple, rapide et facile à utiliser"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Lumin PDF - Belle éditeur de PDF"
+   }
+}

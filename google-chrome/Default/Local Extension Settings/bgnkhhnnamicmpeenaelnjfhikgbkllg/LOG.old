@@ -1,0 +1,41 @@
+2022/10/07-12:41:45.516 6b4 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
+2022/10/07-12:41:45.516 6b4 Recovering log #30
+2022/10/07-12:41:45.538 6b4 Level-0 table #33: started
+2022/10/07-12:41:45.572 6b4 Level-0 table #33: 1430393 bytes OK
+2022/10/07-12:41:45.575 6b4 Delete type=0 #30
+2022/10/07-12:42:07.709 68c Level-0 table #36: started
+2022/10/07-12:42:07.738 68c Level-0 table #36: 1430393 bytes OK
+2022/10/07-12:42:07.741 68c Delete type=0 #34
+2022/10/07-12:42:07.742 68c Compacting 4@0 + 1@1 files
+2022/10/07-12:42:07.763 68c Generated table #37@0: 2 keys, 306474 bytes
+2022/10/07-12:42:07.763 68c Compacted 4@0 + 1@1 files => 306474 bytes
+2022/10/07-12:42:07.770 68c compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/07-12:42:07.770 68c Delete type=2 #31
+2022/10/07-12:42:07.770 68c Delete type=2 #27
+2022/10/07-12:42:07.770 68c Delete type=2 #36
+2022/10/07-12:42:07.770 68c Delete type=2 #33
+2022/10/07-12:42:07.770 68c Delete type=2 #29
+2022/10/07-12:44:04.763 875 Level-0 table #39: started
+2022/10/07-12:44:04.801 875 Level-0 table #39: 1430392 bytes OK
+2022/10/07-12:44:04.805 875 Delete type=0 #35
+2022/10/07-12:44:27.999 875 Level-0 table #41: started
+2022/10/07-12:44:28.027 875 Level-0 table #41: 1430399 bytes OK
+2022/10/07-12:44:28.030 875 Delete type=0 #38
+2022/10/07-12:49:22.784 b1c Level-0 table #43: started
+2022/10/07-12:49:22.823 b1c Level-0 table #43: 1430401 bytes OK
+2022/10/07-12:49:22.827 b1c Delete type=0 #40
+2022/10/07-12:49:39.501 c75 Level-0 table #45: started
+2022/10/07-12:49:39.534 c75 Level-0 table #45: 1430402 bytes OK
+2022/10/07-12:49:39.538 c75 Delete type=0 #42
+2022/10/07-12:49:39.540 c75 Compacting 4@0 + 1@1 files
+2022/10/07-12:49:39.568 c75 Generated table #46@0: 2 keys, 306478 bytes
+2022/10/07-12:49:39.568 c75 Compacted 4@0 + 1@1 files => 306478 bytes
+2022/10/07-12:49:39.570 c75 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/07-12:49:39.570 c75 Delete type=2 #39
+2022/10/07-12:49:39.570 c75 Delete type=2 #43
+2022/10/07-12:49:39.570 c75 Delete type=2 #37
+2022/10/07-12:49:39.570 c75 Delete type=2 #41
+2022/10/07-12:49:39.570 c75 Delete type=2 #45
+2022/10/07-12:51:40.727 cf2 Level-0 table #48: started
+2022/10/07-12:51:40.767 cf2 Level-0 table #48: 1430400 bytes OK
+2022/10/07-12:51:40.770 cf2 Delete type=0 #44

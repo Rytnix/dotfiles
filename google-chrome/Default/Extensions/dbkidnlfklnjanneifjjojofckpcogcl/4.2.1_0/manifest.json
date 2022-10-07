@@ -1,0 +1,32 @@
+{
+   "api_console_project_id": "1031094922298",
+   "app": {
+      "launch": {
+         "web_url": "https://app.luminpdf.com/documents"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "gdrive_mime_types": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "https://app.luminpdf.com/open/google/",
+         "title": "Open",
+         "type": [ "application/pdf", "application/docx", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.google.drive.ext-type.doc", "application/vnd.google.drive.ext-type.docx", "application/vnd.google.drive.ext-type.xls", "application/vnd.google.drive.ext-type.xlsx", "application/vnd.google.drive.ext-type.pdf" ]
+      } ]
+   },
+   "homepage_url": "https://app.luminpdf.com/documents",
+   "icons": {
+      "128": "logo-128.png",
+      "16": "logo-16.png",
+      "256": "logo-256.png",
+      "32": "logo-32.png",
+      "64": "logo-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlX23nN7kulCgjgW1aH60sbn3ofuawveSOXf7OMLD37C95q6E1eeXGeUeQOYvyPG6yoQDku0iMq9r1YPfMeUNMMvHjY0CTco+1wm1+nOGJzBiB0CygcBmNlbAdlEc3gpfmOhfkYcWLmV3cAz4hYFxZPWq7DS0V/0xGYmt43FhqCwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "short_name": "Lumin PDF",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.2.1"
+}

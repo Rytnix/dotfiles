@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.hungama.com/"
+      },
+      "urls": [ "http://www.hungama.com/home", "http://www.hungama.com/music", "http://www.hungama.com/videos" ]
+   },
+   "description": "Enjoy Unlimited Entertainment on Hungama.com. Download songs, ring tones, wallpapers and much more on your mobile & PC",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmt+vHR6eD645gZv4h3ExN/HGi6/dDnzwnMG52XdEVck3tyCKBO1CvS9AIgs5F5CbpXqZvq3rnti1xCS5AZ3UCbV/f6FHHb3WiQZI9B2wE3d1gScb0Xl8r/6zwReoGcMjV8ZdVcTk1AuFtroHP1zQK+aYREItAlyHqbwMeiti1wQIDAQAB",
+   "manifest_version": 2,
+   "name": "Hungama.com",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.1"
+}

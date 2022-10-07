@@ -1,0 +1,532 @@
+{
+	"folder_history":
+	[
+		"/home/utkarsh/Documents/Cpp_Journey"
+	],
+	"last_version": 4126,
+	"last_window_id": 10,
+	"log_indexing": false,
+	"next_update_check": 1665213039,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 600.0,
+		"new_window_maximized": true,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 41.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"push_back",
+					"pq"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 41.0
+			},
+			"input":
+			{
+				"height": 63.0
+			},
+			"menu_visible": true,
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 78.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 800.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "/*\n     ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् |\n     उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ||\n*/\n#include\"bits/stdc++.h\"\n#include<ext/pb_ds/assoc_container.hpp>\n#include<ext/pb_ds/tree_policy.hpp>\n\nusing namespace std;\nusing namespace chrono;\nusing namespace __gnu_pbds;\n\n// Those who want to see the solution..Like what logic I had applied on this solution can directly move to **void solve() function\n\n/*-------------------------------------------------------------------------------------------------------------------------------- */\n\ntypedef unsigned long long ull;\ntypedef long double lld;\ntypedef tree<pair<int, int>, null_type, less<pair<int, int>>, rb_tree_tag, tree_order_statistics_node_update > pbds; // find_by_order, order_of_key\ntypedef long long lln;\ntypedef long long ll;\ntypedef pair<int, int> pii;\ntypedef pair<ll, ll> pll;\ntypedef pair<string, string> pss;\ntypedef vector<int> vi;\ntypedef vector<bool> vb;\ntypedef vector<vi> vvi;\ntypedef vector<pii> vii;\ntypedef vector<ll> vl;\ntypedef vector<vl> vvlj;\ntypedef map<int, int> mii;\n\n/*-------------------------------------------------------------------------------------------------------------------------------- */\n#define FOR(a, b, c) for (int(a) = (b); (a) < (c); ++(a))\n#define FORN(a, b, c) for (int(a) = (b); (a) <= (c); ++(a))\n#define FORD(a, b, c) for (int(a) = (b); (a) >= (c); --(a))\n#define FORSQ(a, b, c) for (int(a) = (b); (a) * (a) <= (c); ++(a))\n#define FORC(a, b, c) for (char(a) = (b); (a) <= (c); ++(a))\n#define FOREACH(a, b) for (auto&(a) : (b))\n#define REP(i, n) FOR(i, 0, n)\n#define REPN(i, n) FORN(i, 1, n)\n#define MAX(a, b) a = mau(a, b)\n#define MIN(a, b) a = min(a, b)\n#define SQR(x) ((LL)(x) * (x))\n#define RESET(a, b) memset(a, b, sizeof(a))\n#define fi first\n#define se second\n#define mp make_pair\n#define pb push_back\n#define ALL(v) v.begin(), v.end()\n#define ALLA(arr, sz) arr, arr + sz\n#define SIZE(v) (int)v.size()\n#define SORT(v) sort(ALL(v))\n#define REVERSE(v) reverse(ALL(v))\n#define SORTA(arr, sz) sort(ALLA(arr, sz))\n#define REVERSEA(arr, sz) reverse(ALLA(arr, sz))\n#define PERMUTE next_permutation\n#define TC(t) while (t--)\n\n/*---------------------------------------------------------------------------------------------------------------------------------*/\n\n#define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)\n#define MOD 1000000007\n#define MOD1 998244353\n#define INF 1e18\n#define INF2 1e9\n#define nline \"\\n\"\n#define pb push_back\n#define ppb pop_back\n#define mp make_pair\n#define ff first\n#define ss second\n#define nline \"\\n\"\n#define PI 3.141592653589793238462\n#define set_bits __builtin_popcountll\n#define sz(x) ((int)(x).size())\n#define all(x) (x).begin(), (x).end()\n\n\n/*--------------------------------------------------debug purpose---------------------------------------------------------------------------------------*/\n\n#ifndef ONLINE_JUDGE\n#define debug(x) cerr << #x<<\" \"; _print(x); cerr << endl;\n#else\n#define debug(x);\n#endif\n\n\n\nvoid _print(ll t) {cerr << t;}\nvoid _print(int t) {cerr << t;}\n\nvoid _printOnConsole(int t) {cout << t;}\n\nvoid _print(string t) {cerr << t;}\nvoid _print(char t) {cerr << t;}\nvoid _print(lld t) {cerr << t;}\nvoid _print(double t) {cerr << t;}\nvoid _print(ull t) {cerr << t;}\n\ntemplate <class T, class V> void _print(pair <T, V> p);\ntemplate <class T> void _print(vector <T> v);\ntemplate <class T> void _print(set <T> v);\ntemplate <class T, class V> void _print(map <T, V> v);\ntemplate <class T> void _print(multiset <T> v);\ntemplate <class T, class V> void _print(pair <T, V> p) {cerr << \"{\"; _print(p.ff); cerr << \",\"; _print(p.ss); cerr << \"}\";}\ntemplate <class T> void _print(vector <T> v) {cerr << \"[ \"; for (T i : v) {_print(i); cerr << \" \";} cerr << \"]\";}\ntemplate <class T> void _printOnConsole(vector <T> v) {cout << \"[ \"; for (T i : v) {_printOnConsole(i); cout << \",\";} cout << \"]\";}\ntemplate <class T> void _print(set <T> v) {cerr << \"[ \"; for (T i : v) {_print(i); cerr << \" \";} cerr << \"]\";}\ntemplate <class T> void _print(multiset <T> v) {cerr << \"[ \"; for (T i : v) {_print(i); cerr << \" \";} cerr << \"]\";}\ntemplate <class T, class V> void _print(map <T, V> v) {cerr << \"[ \"; for (auto i : v) {_print(i); cerr << \" \";} cerr << \"]\";}\nvoid _print(pbds v) {cerr << \"[ \"; for (auto i : v) {_print(i); cerr << \" \";} cerr << \"]\";}\ntemplate <class T> T getinput() { T(x) ; cin >> x; return x;}\n\nmt19937 rng(chrono::steady_clock::now().time_since_epoch().count());\n/*-----------------------------------------------usefull values----------------------------------------------------------------------------*/\nll gcd(ll a, ll b) {if (b > a) {return gcd(b, a);} if (b == 0) {return a;} return gcd(b, a % b);}\nll expo(ll a, ll b, ll mod) {ll res = 1; while (b > 0) {if (b & 1)res = (res * a) % mod; a = (a * a) % mod; b = b >> 1;} return res;}\nvoid extendgcd(ll a, ll b, ll*v) {if (b == 0) {v[0] = 1; v[1] = 0; v[2] = a; return ;} extendgcd(b, a % b, v); ll x = v[1]; v[1] = v[0] - v[1] * (a / b); v[0] = x; return;} //pass an arry of size1 3\nll mminv(ll a, ll b) {ll arr[3]; extendgcd(a, b, arr); return arr[0];} //for non prime b\nll mminvprime(ll a, ll b) {return expo(a, b - 2, b);}\nbool revsort(ll a, ll b) {return a > b;}\nll combination(ll n, ll r, ll m, ll *fact, ll *ifact) {ll val1 = fact[n]; ll val2 = ifact[n - r]; ll val3 = ifact[r]; return (((val1 * val2) % m) * val3) % m;}\nvoid google(int t) {cout << \"Case #\" << t << \": \";}\nvector<ll> sieve(int n) {int*arr = new int[n + 1](); vector<ll> vect; for (int i = 2; i <= n; i++)if (arr[i] == 0) {vect.push_back(i); for (int j = 2 * i; j <= n; j += i)arr[j] = 1;} return vect;}\nll mod_add(ll a, ll b, ll m) {a = a % m; b = b % m; return (((a + b) % m) + m) % m;}\nll mod_mul(ll a, ll b, ll m) {a = a % m; b = b % m; return (((a * b) % m) + m) % m;}\nll mod_sub(ll a, ll b, ll m) {a = a % m; b = b % m; return (((a - b) % m) + m) % m;}\nll mod_div(ll a, ll b, ll m) {a = a % m; b = b % m; return (mod_mul(a, mminvprime(b, m), m) + m) % m;}  //only for prime m\nll phin(ll n) {ll number = n; if (n % 2 == 0) {number /= 2; while (n % 2 == 0) n /= 2;} for (ll i = 3; i <= sqrt(n); i += 2) {if (n % i == 0) {while (n % i == 0)n /= i; number = (number / i * (i - 1));}} if (n > 1)number = (number / n * (n - 1)) ; return number;} //O(sqrt(N)) //Euler totient\nll getRandomNumber(ll l, ll r) {return uniform_int_distribution<ll>(l, r)(rng);}\nbool checkEven(ll n) { if (n % 2 == 0) {return true;} return false;}\nll getValueFromUser() { ll x ; cin >> x; return x;}\n// ll fact(int n) {  return (n == 0) || (n == 1) ? 1 : n * fact(n - 1);}\nll fact(int n) { return std::tgamma(n + 1); }\n/*--------------------------------------------------------------------------------------------------------------------------*/\nbool compiiii(int a, int b)\n{\n    return (a < b);\n}\nvector<long long> vectu;\nvoid segment_check(ll n)\n{\n    for (long long i = 1; i <= sqrt(n); i++)\n        if (n % i == 0)\n        {\n            if (n / i == i)\n                vectu.pb(i);\n            else\n                vectu.pb(i); vectu.pb(n / i);\n        }\n    sort(vectu.begin(), vectu.end());\n}\nint functionen = 0;\nint fibo(int n,  vector<int> &dp) {\n    functionen++;\n    if (n == 1 || n == 2)\n        return 1;\n    if (dp[n] != -1)\n        return dp[n];\n    dp[n] = fibo(n - 1, dp) + fibo(n - 2, dp);\n    return dp[n];\n}\n\nvoid solvee() {\n    string str;\n    cin >> str;\n\n    unordered_map<char, int> mp;\n\n    for (int i = str.length() - 1; i >= 0; i--) {\n        mp[str[i]]++;\n    }\n    for (auto i : mp) {\n        cout << i.first << i.second;\n    }\n}\nint gcd1(int a, int b)\n{\n    if (a == 0)\n        return b;\n    return gcd1(b % a, a);\n}\n\nint findGCD(int arr[], int n)\n{\n    int result = arr[0];\n    for (int i = 1; i < n; i++)\n    {\n        result = gcd1(arr[i], result);\n\n        if (result == 1)\n        {\n            return 1;\n        }\n    }\n    return result;\n}\nint maximumSubarrays(int arr[], int N,\n                     int target)\n{\n\n    int ans = 0;\n\n\n    int availIdx = -1;\n\n\n    int cur_sum = 0;\n\n\n    unordered_map<int, int> mp;\n    mp[0] = -1;\n\n    for (int i = 0; i < N; i++) {\n\n        cur_sum += arr[i];\n\n\n        if (mp.find(cur_sum - target)\n                != mp.end()\n                && mp[cur_sum - target]\n                >= availIdx) {\n\n            ans++;\n            availIdx = i;\n        }\n\n        mp[cur_sum] = i;\n    }\n\n\n    return ans;\n}\n\n\n\nvoid solve() {\n    vector<string> names={\"Alice\",\"Bob\",\"Bob\"};\n    vector<int> heights = {155,185,150};\n    priority_queue<pair<int,string>> pq;\n    for(int i =0;i<names.size();i++){\n        pq.push(make_pair(heights[i],names[i]));\n    }\n    int s=0,size= pq.size();\n    names.clear();\n   while(s!=size){\n    names.push_back(pq.top().second);\n    pq.pop();\n    s++;\n   }\n   debug(names);\n}\nint main() {\n\n#ifndef ONLINE_JUDGE\n    freopen(\"Error.txt\", \"w\", stderr);\n#endif\n    fastio();\n    auto start1 = high_resolution_clock::now();\n    solve();\n    auto stop1 = high_resolution_clock::now();\n    auto duration = duration_cast<microseconds>(stop1 - start1);\n#ifndef ONLINE_JUDGE\n    cerr << \"Execution Time: \" << duration.count() << endl;\n    cerr << \"Time: \" << duration . count() / 1000 << endl;\n#endif\n}",
+					"file": "/home/utkarsh/Documents/Cpp_Journey/a.cpp",
+					"file_size": 9343,
+					"file_write_time": 133088651846992717,
+					"settings":
+					{
+						"buffer_size": 9181,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							138,
+							1,
+							"sequence",
+							{
+								"commands":
+								[
+									[
+										"nv_vi_big_o",
+										{
+											"count": 1,
+											"mode": "mode_internal_normal"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "names.p"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "ush"
+										}
+									]
+								]
+							},
+							"DAAAAOghAAAAAAAA6SEAAAAAAAAAAAAA6CEAAAAAAADsIQAAAAAAAAAAAADsIQAAAAAAAO0hAAAAAAAAAAAAAO0hAAAAAAAA7iEAAAAAAAAAAAAA7iEAAAAAAADvIQAAAAAAAAAAAADvIQAAAAAAAPAhAAAAAAAAAAAAAPAhAAAAAAAA8SEAAAAAAAAAAAAA8SEAAAAAAADyIQAAAAAAAAAAAADyIQAAAAAAAPMhAAAAAAAAAAAAAPMhAAAAAAAA9CEAAAAAAAAAAAAA9CEAAAAAAAD1IQAAAAAAAAAAAAD1IQAAAAAAAPYhAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA9iEAAAAAAAD2IQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							141,
+							1,
+							"nv_vi_dd",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"register": "\""
+							},
+							"AQAAAOghAAAAAAAA6CEAAAAAAAAPAAAAICAgIG5hbWVzLnB1c2gK",
+							"AQAAAAAAAAABAAAA9SEAAAAAAAD1IQAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"contents": "*neovintageous.txt*                                        *nv* *neovintageous*\n\n\n        _   __         _    ___       __\n       / | / /__  ____| |  / (_)___  / /_____ _____ ____  ____  __  _______\n      /  |/ / _ \\/ __ \\ | / / / __ \\/ __/ __ `/ __ `/ _ \\/ __ \\/ / / / ___/\n     / /|  /  __/ /_/ / |/ / / / / / /_/ /_/ / /_/ /  __/ /_/ / /_/ (__  )\n    /_/ |_/\\___/\\____/|___/_/_/ /_/\\__/\\__,_/\\__, /\\___/\\____/\\__,_/____/\n                                            /____/\n                                                    Advanced Vim emulation!\n\n\nJump to a subject:  Position the cursor on a tag (e.g.|bars|and hit CTRL-].\n        Jump back:  Type CTRL-I or CTRL-O.  Repeat to go further back.\n\nVim feature-parity is an ongoing effort, some features are not implemented or\nimplemented fully, and differences are not fully documented.\n\nThe vim documentation is provided in full without modification and this page\ntries to document some feature differences and special features and usage.\n\nPlease open issues to request missing features.\n\nIf you are new to vim also see|help.txt|.\n\n\nCONTENTS                                                         *nv-contents*\n\n    Command Palette ................|nv-command-palette|\n    Multiple cursors ...............|nv-multiple-cursors|\n    Opening a view .................|nv-opening-view|\n    neovintageousrc ................|neovintageousrc|\n    Plugins ........................|nv-plugins|\n        Abolish ........................|nv-abolish|\n        Commentary .....................|nv-commentary|\n        HighlightedYank ................|nv-highlightedyank|\n        Sneak ..........................|nv-sneak|\n        Surround .......................|nv-surround|\n        Unimpaired .....................|nv-unimpaired|\n        Indent Object ..................|nv-indent-object|\n    Options ........................|nv-options|\n    Settings .......................|nv-settings|\n    Search highlighting ............|nv-search-highlighting|\n    Jumping to diffs ...............|nv-jumpto-diffs|\n    Toggle Command .................|nv-toggle|\n\n\n==============================================================================\n\nCOMMAND PALETTE                                           *nv-command-palette*\n\nNeoVintageous: Changelog            Open CHANGELOG.\nNeoVintageous: Open RC File         Open runtime configuration file.\nNeoVintageous: Reload RC File       Reload the runtime configuration file.\nNeoVintageous: Toggle CTRL keys     Turn CTRL key bindings on and off.\nNeoVintageous: Toggle SUPER keys    Turn SUPER key bindings on and off.\n\n==============================================================================\n\nMULTIPLE CURSORS                                         *nv-multiple-cursors*\n\nnormal mode and visual mode\n\n    start:      <C-n> or gh     Start multiple cursor.\n        next:   <C-n> or j      Add next match.\n        skip:   <C-x> or l      Skip next match.\n        prev:   <C-p> or k      Remove current match.\n        all:    <M-n> or A      Select all matches.\n\nYou can now use visual commands e.g. c, I, x, y work without any issues.\n\nYou could also go to normal mode by pressing v and use normal commands there,\nfor example commands like ciw work without any issues.\n\nAt any time you can press <Esc> or J to exit back to regular Vim. To change\nthe behaviour of exiting see 'vintageous_multi_cursor_exit_from_visual_mode'.\n\n<C-n> or gh             Start multiple cursor.\n<C-n> or j              Add next match.\n<C-x> or l              Skip next match.\n<C-p> or k              Remove current match and go back on previous.\n<Esc> or J              Quit and enter normal mode.\n<M-n> or A              Select all matches.\nv                       Enter normal mode.\ngH                      Select all search occurrences (/, ?, *, #).\n\n==============================================================================\n\nOPENING A VIEW                                               *nv-opening-view*\n\nSome windowing commands require the Origami package.\n\nSee: https://packagecontrol.io/packages/Origami.\n\nCTRL-W CTRL-S\nCTRL-W s\nCTRL-W S\n:sp[lit] [file]         Split current window in two. The result is two views\n                        on the same file. See|CTRL-W_s|for more details.\n\nCTRL-W CTRL-V\nCTRL-W v\nCTRL-W V\n:vs[plit] [file]        Like|:split|but split vertically. See|CTRL-W_v|.\n\n==============================================================================\n\nNEOVINTAGEOUSRC                        *nv-rc* *vintageousrc* *neovintageousrc*\n\nA file that contains initialization commands is generically called a \"vimrc\"\nor config file, in NeoVintageous it's \"neovintageousrc\". Each line in a\nneovintageousrc file is executed as an Ex command line.\n\nThe|mapleader|variable is supported. >\n\n    let mapleader=,\n\nThe|set|command is partially supported, see|nv-options|for supported options.\n\n    :se[t] {option}?    Show value of {option}.\n    :se[t] {option}     Toggle option: set, switch it on.\n                        Number option: show value.\n                        String option: show value.\n    :se[t] no{option}   Toggle option: Reset, switch it off.\n    :se[t] {option}!    or\n    :se[t] inv{option}  Toggle option: Invert value.\n\nThe|:map-commands|are partially supported.\n\n    :noremap    {lhs} {rhs}         |:noremap|\n    :nnoremap   {lhs} {rhs}         |:nnoremap|\n    :onoremap   {lhs} {rhs}         |:onoremap|\n    :snoremap   {lhs} {rhs}         |:snoremap|\n    :vnoremap   {lhs} {rhs}         |:vnoremap|\n\nUse <CR> to indicate pressing enter when mapping commands: >\n\n    noremap <C-s> :w<CR>\n\nBasic leading and trailing sequences in mappings is supported: >\n\n    nnoremap <leader>sp vip:sort u<CR>\n\nTo map Sublime Text commands you need to format the command name as MixedCase.\nThe command name is converted to snake_case before being executed by Sublime\nText and basic arguments in the form \"key=value\" are accepted, for example: >\n\n    nnoremap <leader>i :GotoSymbolInProject<CR>\n    nnoremap <leader>f :ShowOverlay overlay=goto text=@<CR>\n\nSupport for chaining user commands is supported. The special <Bar> character\ncan be used to separate commands from the next command: >\n\n    nnoremap <leader>m :Command1<Bar>:Command2<CR>\n\nSuper-keys can be mapped by the `<D-...>` special keys (super-keys are\ndisabled by default, see|nv-settings|for details on enabling them): >\n\n    nnoremap <D-i> :GotoSymbolInProject<CR>\n\nHere is an example neovintageous file: >\n\n    set ignorecase\n    set winaltkeys=menu\n\n    let mapleader=,\n\n    nnoremap <leader><bar> <C-w><bar>\n    nnoremap <leader>= <C-w>=\n    nnoremap <leader>_ <C-w>_\n    nnoremap <leader>d :Neovintageous action=toggle_side_bar<CR>\n    nnoremap <leader>en :Neovintageous action=open_rc_file<CR>\n    nnoremap <leader>f :ShowOverlay overlay=goto text=@<CR>\n    nnoremap <leader>hu :RevertModification<CR>\n    nnoremap <leader>o :ls<CR>\n    nnoremap <leader>q gqip:w<CR>\n    nnoremap <leader>r :reg<CR>\n\n    nnoremap <D-i> :GotoSymbolInProject<CR>\n    noremap <C-l> :nohlsearch<CR>\n    noremap <C-s> :w<CR>\n    noremap <space> :\n\n    noremap <leader>y \"+y\n    noremap <leader>Y \"+Y\n    noremap <leader>p \"+p\n    noremap <leader>P \"+P\n\n    nnoremap <leader>s) vi):sort u<CR>\n    nnoremap <leader>s] vi]:sort u<CR>\n    nnoremap <leader>si vii:sort u<CR>\n    nnoremap <leader>sp vip:sort u<CR>\n    nnoremap <leader>ss vip:sort u<CR>\n    vnoremap <leader>s :sort u<CR>\n\n\nTo enable toggling the side bar when the side bar has focus add the following\nkey binding, Goto  Menu > Preferences > Key Bindings: >\n\n    [\n        {\n            \"keys\": [\",\", \"d\"],\n            \"command\": \"neovintageous\",\n            \"args\": { \"action\": \"toggle_side_bar\" },\n            \"context\": [ { \"key\": \"control\", \"operand\": \"sidebar_tree\" } ]\n        }\n    ]\n\n==============================================================================\n\nPLUGINS                                                 *nv-plugins* *plugins*\n\nPlugin feature-parity is an ongoing effort, features from the original vim\nplugin may not be implemented fully or differences documented fully. The\noriginal plugin documentation is provided in full without modification.\n\nPlease open issues to request missing features.\n\n------------------------------------------------------------------------------\n\nABOLISH                                                 *nv-abolish* *abolish*\n\nCoercion                                               *abolish-coercion* *cr*\n\nAbolish's case mutating algorithms can be applied to the word under the cursor\nusing the cr mapping (mnemonic: CoeRce) followed by one of the following\ncharacters:\n\n  c:       camelCase\n  m:       MixedCase\n  _:       snake_case\n  s:       snake_case\n  u:       SNAKE_UPPERCASE\n  U:       SNAKE_UPPERCASE\n  -:       dash-case (not usually reversible; see|abolish-coercion-reversible|)\n  k:       kebab-case (not usually reversible; see|abolish-coercion-reversible|)\n  .:       dot.case (not usually reversible; see|abolish-coercion-reversible|)\n  <space>: space case (not usually reversible; see|abolish-coercion-reversible|)\n  t:       Title Case (not usually reversible; see|abolish-coercion-reversible|)\n\nFor example, cru on a lowercase word is a slightly easier to type equivalent\nto gUiw.\n\nCoercion Reversibility                           *abolish-coercion-reversible*\n\nSome separators, such as \"-\" and \".\", are listed as \"not usually reversible\".\nThe reason is that these are not \"keyword characters\", so NeoVintageous will\ntreat them as breaking a word.\n\nFor example: \"key_word\" is a single keyword.  The dash-case version,\n\"key-word\", is treated as two keywords, \"key\" and \"word\".\n\nAbolish is a port of the popular vim-abolish.\nhttps://github.com/tpope/vim-abolish.\n\n------------------------------------------------------------------------------\n\nCOMMENTARY                                        *nv-commentary* *commentary*\n\nComment stuff out. Then uncomment it later.\n\n                                                *gc*\ngc{motion}              Comment or uncomment lines that {motion} moves over.\n\n                                                *gcc*\ngcc                     Comment or uncomment [count] lines.\n\n                                                *v_gc*\n{Visual}gc              Comment or uncomment the highlighted lines.\n\n                                                *o_gc*\ngc                      Text object for a comment (operator pending mode\n                        only.)\n\nCommentary is a port of the popular vim-commentary.\nhttps://github.com/tpope/vim-commentary.\n\n------------------------------------------------------------------------------\n\nHIGHLIGHTEDYANK                         *nv-highlightedyank* *highlightedyank*\n\nHighlightedYank is a plugin to highlight the yanked region. This is a pretty\ntrick to make your coding more comfortable.\n\nWhen new text is yanked, the old highlighting is deleted. Or when former lines\nare edited, the highlighting is deleted to prevent shifting the position, also.\n\nThe highlighted duration can be configured by the 'highlightedyank_duration'\nsetting and the style can be configured by the 'highlightedyank_style' setting.\n\nTo customise the colors, create a color scheme override for your color scheme:\nfor example if you have the default Monokai color scheme enabled, create a file\nnamed `Monokai.sublime-color-scheme` in the User directory (find the User\ndirectory location via the Menu: `Preferences > Browse Packages...`), then\ncreate the styles using the scopes: >\n\nTo customise the colors, create a color scheme override: for example if you\nhave the default Monokai color scheme enabled - create a file named\nMonokai.sublime-color-scheme in the Sublime Text User directory\n(Menu > Preferences > BrowsePackages...), and create the styles using the\n\"highlightedyank\" scope: >\n\n    {\n        \"rules\":\n        [\n            {\n                \"scope\": \"highlightedyank\",\n                \"background\": \"#e6db74\",\n                \"foreground\": \"#272822\"\n            }\n        ]\n    }\n\nInspired by the popular vim-highlightedyank.\nhttps://github.com/machakann/vim-highlightedyank\n------------------------------------------------------------------------------\n\nSNEAK                                                       *nv-sneak* *sneak*\n\nSneak provides a way to move quickly and precisely to locations that would be\nawkward to reach with built-in Vim motions.\n\nTo use Sneak, type \"s\" followed by exactly two characters:\n\n    s{char}{char}\n\nThus you can often reach a target with 3 keystrokes. Sneak always moves\nimmediately to the first {char}{char} match. Additional matches are\nhighlighted, you can reach them by pressing ; (just like|f|and|t|).\n\nAbove all, the goal is to get out of your way. See|sneak-usage|for a\nquick-start, and|sneak-features|for full description.\n\nUsage                                                            *sneak-usage*\n\nExample (cursor position indicated with brackets []): >\n    [L]orem ipsum dolor sit amet, consectetur adipisicing elit\n\nType ssi to go to the beginning of the word \"sit\": >\n    Lorem ipsum dolor [s]it amet, consectetur adipisicing elit\n\nType ; (or s again, if|sneak-clever-s|is enabled) to go to the next match: >\n    Lorem ipsum dolor sit amet, consectetur adipi[s]icing elit\n\nType Sdo to go backwards to the beginning of the word \"dolor\": >\n    Lorem ipsum [d]olor sit amet, consectetur adipisicing elit\n\nType dzad to delete from the cursor to the first instance of \"ad\": >\n    Lorem ipsum [a]dipisicing elit\n\nDefault Mappings                                              *sneak-mappings*\n\nNORMAL-MODE~\n    Key Sequence             | Description\n    -------------------------|----------------------------------------------\n    s{char}{char}            | Go to the next occurrence of {char}{char}\n    S{char}{char}            | Go to the previous occurrence of {char}{char}\n    s{char}<Enter>           | Go to the next occurrence of {char}\n    S{char}<Enter>           | Go to the previous occurrence of {char}\n    s<Enter>                 | Repeat the last Sneak.\n    S<Enter>                 | Repeat the last Sneak, in reverse direction.\n    ;                        | Go to the [count]th next match\n    , or \\                   | Go to the [count]th previous match\n    {operator}z{char}{char}  | Perform {operator} from the cursor to the next\n                             | occurrence of {char}{char}\n    {operator}Z{char}{char}  | Perform {operator} from the cursor to the\n                             | previous occurrence of {char}{char}\n\nVISUAL-MODE~\n    Key Sequence             | Description\n    -------------------------|----------------------------------------------\n    s{char}{char}            | Go to the next occurrence of {char}{char}\n    Z{char}{char}            | Go to the previous occurrence of {char}{char}\n    s{char}<Enter>           | Go to the next occurrence of {char}\n    Z{char}<Enter>           | Go to the previous occurrence of {char}\n    s<Enter>                 | Repeat the last Sneak.\n    Z<Enter>                 | Repeat the last Sneak, in reverse direction.\n    ;                        | Go to the [count]th next match\n    , or \\                   | Go to the [count]th previous match\n\n    NOTE: Z goes backwards in visual-mode, because S is taken by the\n   |surround|plugin).\n\nFeatures                                                      *sneak-features*\n\nNORMAL-MODE\n\n`s` (and `S`) waits for two characters, then immediately moves to the next\n(previous) match. Additional matches are highlighted. Works across multiple\nlines.\n\n`;` and `,` repeat the last `s` and `S`. They also work correctly with `f` and\n`t` (unless you or another plugin have mapped `f` or `t` to a custom mapping).\n[count]; and [count], skip to the [count]th match, similar to the behavior of\n[count]f and [count]t.\n\n    Note: If your mapleader is|,|then Sneak maps|\\|instead of|,|.\n\ns<Enter> (\"s\" followed by Enter) always repeats the last search, even if|;|\nand|,|were reset by|f|or|t|.\n\nOPERATIONS\n\nUse `z` for operations. For example, `dzab` deletes from the cursor to the\nnext instance of \"ab\". `dZab` deletes backwards to the previous instance.\n`czab` `cZab` `yzab` and `yZab` also work as expected.\n\nRepeat the operation with dot|.|.\n\nSneak is a port of the popular vim-sneak.\nhttps://github.com/justinmk/vim-sneak.\n------------------------------------------------------------------------------\n\nSURROUND                                              *nv-surround* *surround*\n\nThis plugin is a tool for dealing with pairs of \"surroundings.\"  Examples\nof surroundings include parentheses, quotes, and HTML tags.  They are\nclosely related to what Vim refers to as|text-objects|.  Provided\nare mappings to allow for removing, changing, and adding surroundings.\n\nDetails follow on the exact semantics, but first, consider the following\nexamples.  An asterisk (*) is used to denote the cursor position.\n\n  Old text                  Command     New text ~\n  \"Hello *world!\"           ds\"         Hello world!\n  [123+4*56]/2              cs])        (123+456)/2\n  \"Look ma, I'm *HTML!\"     cs\"<q>      <q>Look ma, I'm HTML!</q>\n  if *x>3 {                 ysW(        if ( x>3 ) {\n  my $str = *whee!;         vllllS'     my $str = 'whee!';\n\nMappings                                                   *surround-mappings*\n\nDelete surroundings is*ds*.  The next character given determines the target\nto delete.  The exact nature of the target is explained in|surround-targets|\nbut essentially it is the last character of a|text-object|.  This mapping\ndeletes the difference between the \"i\"nner object and \"a\"n object.  This is\neasiest to understand with some examples:\n\n  Old text                  Command     New text ~\n  \"Hello *world!\"           ds\"         Hello world!\n  (123+4*56)/2              ds)         123+456/2\n  <div>Yo!*</div>           dst         Yo!\n\nChange surroundings is*cs*.  It takes two arguments, a target like with|ds|,\nand a replacement. *cS*changes surroundings, placing the surrounded text on\nits own line(s) like|yS|.  Details about the second argument can be found\nbelow in|surround-replacements|.  Once again, examples are in order.\n\n  Old text                  Command     New text ~\n  \"Hello *world!\"           cs\"'        'Hello world!'\n  \"Hello *world!\"           cs\"<q>      <q>Hello world!</q>\n  (123+4*56)/2              cs)]        [123+456]/2\n  (123+4*56)/2              cs)[        [ 123+456 ]/2\n  <div>Yo!*</div>           cst<p>      <p>Yo!</p>\n\n*ys* takes a valid Vim motion or text object as the first object, and wraps it\nusing the second argument as with|cs|.  (It's a stretch, but a good mnemonic\nfor \"ys\" is \"you surround\".)\n\n  Old text                  Command     New text ~\n  Hello w*orld!             ysiw)       Hello (world)!\n\nAs a special case,*yss*operates on the current line, ignoring leading\nwhitespace.\n\n  Old text                  Command     New text ~\n      Hello w*orld!         yssB            {Hello world!}\n\nTargets                                                     *surround-targets*\n\nThe|ds|and|cs|commands both take a target as their first argument.  The\npossible targets are based closely on the|text-objects|provided by Vim.\nAll targets are currently just one character.\n\nEight punctuation marks, (, ), {, }, [, ], <, and >, represent themselves\nand their counterparts.  If the opening mark is used, contained whitespace is\nalso trimmed.  The targets b, B, r, and a are aliases for ), }, ], and >\n(the first two mirror Vim; the second two are completely arbitrary and\nsubject to change).\n\nThree quote marks, ', \", `, represent themselves, in pairs.  They are only\nsearched for on the current line.\n\nA t is a pair of HTML or XML tags.  See|tag-blocks|for details.  Remember\nthat you can specify a numerical argument if you want to get to a tag other\nthan the innermost one.\n\nThe letters w, W, and s correspond to a|word| a|WORD| and a|sentence|\nrespectively.  These are special in that they have nothing to delete, and used\nwith|ds|they are a no-op.  With|cs| one could consider them a slight shortcut\nfor ysi (cswb == ysiwb, more or less).\n\nA p represents a|paragraph|  This behaves similarly to w, W, and s above;\nhowever, newlines are sometimes added and/or removed.\n\nReplacements                                           *surround-replacements*\n\nA replacement argument is a single character, and is required by|cs|and|ys|.\nUndefined replacement characters (with the exception of alphabetic characters)\ndefault to placing themselves at the beginning and end of the destination,\nwhich can be useful for characters like / and |.\n\nIf either ), }, ], or > is used, the text is wrapped in the appropriate pair\nof characters.  Similar behavior can be found with (, {, and [ (but not <),\nwhich append an additional space to the inside.  Like with the targets above,\nb, B, r, and a are aliases for ), }, ], and >.  To fulfill the common need for\ncode blocks in C-style languages, <C-}> (which is really <C-]>) adds braces on\nlines separate from the content.\n\nIf t or < is used, Vim prompts for an HTML/XML tag to insert.  You may specify\nattributes here and they will be stripped from the closing tag. If replacing a\ntag, its attributes are kept in the new tag. End your input with > to discard\nthe those attributes. If <C-T> is used, the tags will appear on lines by\nthemselves.\n\nIf f, F, or <C-F> is used, Vim prompts for a function name to insert.  The target\ntext will be wrapped in a function call. If f is used, the text is wrapped with\n() parentheses; F adds additional spaces inside the parentheses. <C-F> inserts the\nfunction name inside the parentheses.\n\n  Old text                  Command           New text ~\n  \"hello\"                   ysWfprint<cr>     print(\"hello\")\n  \"hello\"                   ysWFprint<cr>     print( \"hello\" )\n  \"hello\"                   ysW<C-f>print<cr> (print \"hello\")\n\nIf s is used, a leading but not trailing space is added.  This is useful for\nremoving parentheses from a function call with csbs.\n\nSurround is a port of the popular vim-surround.\nhttps://github.com/tpope/vim-surround.\n------------------------------------------------------------------------------\n\nUNIMPAIRED                                        *nv-unimpaired* *unimpaired*\n\nThis plugin provides several pairs of bracket maps.\n\nNext and Previous                                            *unimpaired-next*\n\nThe following maps all correspond to normal mode commands.  If a count is\ngiven, it becomes an argument to the command.\n\n[b                     |:bprevious|\n]b                     |:bnext|\n[B                     |:bfirst|\n]B                     |:blast|\n[t                     |:tprevious|\n]t                     |:tnext|\n[T                     |:tfirst|\n]T                     |:tlast|\n[l                      Jump to the [count] previous error.\n]l                      Jump to the [count] next error.\n                        https://packagecontrol.io/packages/SublimeLinter\n\n                                                *[n*\n[n                      Go to the previous SCM conflict marker or diff/patch\n                        hunk.  Try d[n inside a conflict.\n\n                                                *]n*\n]n                      Go to the next SCM conflict marker or diff/patch hunk.\n                        Try d]n inside a conflict.\n\nLine Operations                                             *unimpaired-lines*\n\n                                                *[<Space>*\n[<Space>                Add [count] blank lines above the cursor.\n\n                                                *]<Space>*\n]<Space>                Add [count] blank lines below the cursor.\n\n                                                *[e* *v_[e*\n[e                      Exchange the current line with [count] lines above it.\n\n                                                *]e* *v_]e*\n]e                      Exchange the current line with [count] lines below it.\n\nOption Toggling                                          *unimpaired-toggling*\n\n On      Off     Toggle Option\n*[oa*   *]oa*   *yoa*   'menu'\n*[oc*   *]oc*   *yoc*   'cursorline'\n*[oe*   *]oe*   *yoe*   'statusbar'\n*[oh*   *]oh*   *yoh*   'hlsearch'\n*[oi*   *]oi*   *yoi*   'ignorecase'\n*[ol*   *]ol*   *yol*   'list'\n*[om*   *]om*   *yom*   'minimap'\n*[on*   *]on*   *yon*   'number'\n*[or*   *]or*   *yor*   'relativenumber'\n*[ot*   *]ot*   *yot*   'sidebar'\n*[os*   *]os*   *yos*   'spell'\n*[ow*   *]ow*   *yow*   'wrap'\n\nThe mnemonic for y is that if you tilt it a bit it looks like a switch.\n\nUnimpaired is a port of the popular vim-unimpaired.\nhttps://github.com/tpope/vim-unimpaired.\n------------------------------------------------------------------------------\n\nINDENT OBJECT                               *nv-indent-object* *indent-object*\n\nVim text objects provide a convenient way to select and operate on various\ntypes of objects. These objects include regions surrounded by various types of\nbrackets and various parts of language (ie sentences, paragraphs, etc).\n\nThis plugin defines a new text object, based on indentation levels. This is\nvery useful in languages such as Python, in which the syntax defines scope in\nterms of indentation. Using the objects defined in this plugin, an entire if\nstructure can be quickly selected, for example.\n\nText Objects                          *ai* *ii* *aI* *iI*     *indtobj-objects*\n\nThis plugin defines two new text objects. These are very similar - they differ\nonly in whether they include the line below the block or not.\n\n        Key Mapping       Description\n>\n        <count>ai         (A)n (I)ndentation level and line above.\n        <count>ii         (I)nner (I)ndentation level (no line above).\n        <count>aI         (A)n (I)ndentation level and lines above/below.\n        <count>iI         (I)nner (I)ndentation level (no lines above/below).\n\nNote that the iI mapping is mostly included simply for completeness, it is\neffectively a synonym for ii.\n\nJust like regular text objects, these mappings can be used either with\noperators expecting a motion, such as 'd' or 'c', as well as in visual mode.\nIn visual mode the mapping can be repeated, which has the effect of\niteratively increasing the scope of indentation block selected. Specifying a\ncount can be used to achieve the same effect.\n\nThe difference between|ai|and|aI|is that|ai|includes the line immediately\nabove the indentation block, whereas aI includes not only that, but also the\nline below. Which of these is most useful largely depends on the structure of\nthe language being edited.\n\nFor example, when editing the Python code,|ai|is generally more useful, as the\nline above the indentation block is usually related to it. For example, in the\nfollowing code (* is used to indicate the cursor position): >\n\n      if foo > 3:\n         log(\"foo is big\") *\n         foo = 3\n      do_something_else()\n\nthe if clause is logically related to the code block, whereas the function\ncall below is not. It is unlikely we would want to select the line below when\nwe are interested in the if block.\n\nHowever, in other languages, such as Vim scripts, control structures are\nusually terminated with something like 'endif'. Therefore, in this example: >\n\n      if foo > 3\n         echo \"foo is big\" *\n         let foo = 3\n      endif\n      call do_something_else()\n\nwe would more likely want to include the endif when we select the if\nstructure.\n\nIndent Object is a port of the popular vim-indent-object.\nhttps://github.com/michaeljsmith/vim-indent-object\n==============================================================================\n\nOPTIONS                                                           *nv-options*\n\nList of currently supported options:\n\n    'autoindent' 'belloff' 'expandtabs' 'hlsearch' 'ignorecase' 'incsearch'\n    'list' 'magic' 'menu' 'minimap' 'modeline' 'modelines' 'number'\n    'relativenumber', 'shell' 'sidebar' 'smartcase' 'spell' 'statusbar'\n    'tabstop' 'textwidth' 'winaltkeys' 'wrap' 'wrapscan'\n\nSee `:help '{option}'` for help on individual options.\n\n==============================================================================\n\nSETTINGS                                                         *nv-settings*\n\nTo edit settings go to `Menu > Preferences > Settings` or use the Command\nPalette: press `Ctrl+Shift+P` and select the \"Preferences: Settings\" command.\n\nList of available settings:\n\n                                                           *'highlightedyank'*\n'highlightedyank'       boolean (default on)\n        Enable or disable the HighlightedYank plugin.\n\n                                                  *'highlightedyank_duration'*\n'highlightedyank_duration'\n                        number (default 1000)\n        Assign number of time in milliseconds.\n\n                                                     *'highlightedyank_style'*\n'highlightedyank_style' string (default \"fill\")\n        Valid values: fill, outline, underline, squiggly_underline,\n        stippled_underline.\n\n                                             *'neovintageous_search_cur_style'*\n'neovintageous_search_cur_style'\n                        string (default \"fill\")\n        The current search style. Valid values: fill, outline, underline,\n        squiggly_underline, stippled_underline.\n\n                                             *'neovintageous_search_inc_style'*\n'neovintageous_search_inc_style'\n                        string (default \"fill\")\n        The incremental search style. Valid values: fill, outline, underline,\n        squiggly_underline, stippled_underline.\n\n                                             *'neovintageous_search_occ_style'*\n'neovintageous_search_occ_style'\n                        string (default \"fill\")\n        The search occurrences style. Valid values: fill, outline, underline,\n        squiggly_underline, stippled_underline.\n\n                                                           *'vintageous_bell'*\n'vintageous_bell'       string (default \"blink\")\n        Visual bell style type. Valid values are: blink, view, or views.\n\n                                              *'vintageous_bell_color_scheme'*\n'vintageous_bell_color_scheme'\n                        string (default \"dark\")\n        Visual bell color scheme. Valid values are: \"dark\", \"light\", or color\n        scheme path. The color scheme path should be in the format:\n        Packages/Name/name.hidden-color-scheme\n\n                                                   *'vintageous_default_mode'*\n'vintageous_default_mode'\n                        string (default \"\")\n        The default mode to use when activating or switching views.\n\n        Valid values are: \"insert\" or \"\".\n\n        mode   | description\n        ------ | -----------\n        insert | Enter insert mode when opening or switching views or when the\n                 window receives focus and is not in visual mode i.e. visual\n                 mode selections are retained when the window loses focus.\n\n                                                 *'vintageous_enable_abolish'*\n'vintageous_enable_abolish'\n                        boolean (default on)\n        Plugin: A port of https://github.com/tpope/vim-abolish.\n\n                                              *'vintageous_enable_commentary'*\n'vintageous_enable_commentary'\n                        boolean (default on)\n        Plugin: A port of https://github.com/tpope/vim-commentary.\n\n                                        *'vintageous_enable_multiple_cursors'*\n'vintageous_enable_multiple_cursors'\n                        boolean (default on)\n        Plugin: A port of https://github.com/terryma/vim-multiple-cursors.\n\n                                                   *'vintageous_enable_sneak'*\n'vintageous_enable_sneak'\n                        boolean (default off)\n        Plugin: A port of https://github.com/justinmk/vim-sneak.\n\n                                                *'vintageous_enable_sublime'*\n'vintageous_enable_sublime'\n                        boolean (default on)\n        Plugin: Supports specific Sublime Text enhancements and tweaks.\n\n                                                *'vintageous_enable_surround'*\n'vintageous_enable_surround'\n                        boolean (default on)\n        Plugin: A port of https://github.com/tpope/vim-surround.\n\n                                              *'vintageous_enable_unimpaired'*\n'vintageous_enable_unimpaired'\n                        boolean (default on)\n        Plugin: A port of https://github.com/tpope/vim-unimpaired.\n\n'vintageous_handle_keys'                            *'vintageous_handle_keys'*\n                        boolean (default {})\n        Delegate configured keys to be handled by Sublime Text. \n\n        For example to use ctrl+f for find (native ST behaviour):\n\n            \"vintageous_handle_keys\": {\n                \"<C-f>\": false\n            }\n\n        Keys can be delegated by mode too e.g. i_<C-w>, v_<C-w>. The following\n        will only delegate <C-w> back to ST when in insert or visual mode:\n\n            \"vintageous_handle_keys\": {\n                \"i_<C-w>\": false\n                \"v_<C-w>\": false\n            }\n\n        The valid mode prefixes are:\n\n            n_ - Normal\n            i_ - Insert\n            v_ - Visual\n            V_ - Visual line\n            b_ - Visual block\n            s_ - Select\n\n        No prefix implies all modes.\n\n        Any keybinding defined in the default keymap file that has\n        a \"nv_handle_key\" context constraint can be configured to delegate\n        back to ST.\n        See https://github.com/NeoVintageous/NeoVintageous/blob/master/Default.sublime-keymap\n\n                                              *'vintageous_i_escape_jj'*\n'vintageous_i_escape_jj'\n                        boolean (default off)\n        If set to true, then pressing jj in insert mode maps to <Esc>.\n\n                                              *'vintageous_i_escape_jk'*\n'vintageous_i_escape_jk'\n                        boolean (default off)\n        If set to true, then pressing jk in insert mode maps to <Esc>.\n\n                             *'vintageous_multi_cursor_exit_from_visual_mode'*\n'vintageous_multi_cursor_exit_from_visual_mode'\n                        boolean (default off)\n        If set to false, then pressing the quit key (<Esc> or J) in Visual\n        mode will not quit and delete all existing cursors. Useful if you want\n        to go back to Normal mode, and still be able to operate on all the\n        cursors.\n\n                                 *'vintageous_reset_mode_when_switching_tabs'*\n'vintageous_reset_mode_when_switching_tabs'\n                        boolean (default on)\n        Reset to normal mode when a view is activated.\n\n                                                   *'vintageous_shell_silent'*\n'vintageous_shell_silent'\n                        boolean (default off)\n        Show output panel from shell commands.\n\n                                               *'vintageous_sneak_use_ic_scs'*\n'vintageous_sneak_use_ic_scs'\n                        number (default 0)\n        0: Always case-sensitive\n        1: Case sensitivity is determined by 'ignorecase' and 'smartcase'.\n\n                                                  *'vintageous_use_ctrl_keys'*\n'vintageous_use_ctrl_keys'\n                        boolean (default on)\n        Enable key bindings prefaced by the ctrl-key.\n\n                                                 *'vintageous_use_super_keys'*\n'vintageous_use_super_keys'\n                        boolean (default off)\n        Enable key bindings prefaced by the super-key, otherwise known as the\n        command-key in OSX, and as the windows-key in Windows.\n\n                                              *'vintageous_use_sys_clipboard'*\n'vintageous_use_sys_clipboard'\n                        boolean (default off)\n        Propagate copy actions to the system clipboard.\n\n------------------------------------------------------------------------------\n\nMapping capslock to escape                                       *nv-capslock*\n\nNeovintageous cannot remap the CapsLock, however it can be remapped at an OS\nlevel. For example, on Ubuntu you can map CapsLock to Escape at the terminal\nusing a tool called gsettings: >\n\n    gsettings set org.gnome.desktop.input-sources xkb-options \"['caps:escape']\"\n\n------------------------------------------------------------------------------\n\nHolding down a key like j does not repeat the command                   *nv-j*\n\nThis is a feature of OS X Lion and newer versions. To make a key repeat a\ncommand when holding it down, run this once at the terminal: >\n\n    defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false\n\n------------------------------------------------------------------------------\n\nKey presses are laggy or slow                             *nv-keyboard-repeat*\n\nIf key presses are slow or laggy first check the system configuration, for\nexample on Ubuntu you can configure keyboard repeat interval and delay: >\n\n    gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 15\n    gsettings set org.gnome.desktop.peripherals.keyboard delay 180\n\nand for KDE: >\n\n    systemsettings5 kcm_keyboard\n\nbrings up a window where you can change 'Delay' and 'Rate' as required.\n\nIn general if you are on X11 type systems you could directly use: >\n\n    xset r rate <milliseconds_before_repeating> <repetitions_per_second>\n\n------------------------------------------------------------------------------\n\nCustom key bindings in insert mode                                 *nv-escape*\n\nIf you need a custom insert mode key binding you can use the\n\"vi_insert_mode_aware\" context in your key binding: >\n\n    {\n        \"keys\": [...],\n        \"command\": \"...\",\n        \"context\": [{\"key\": \"vi_insert_mode_aware\"}]\n    }\n\n------------------------------------------------------------------------------\n\nSearch highlighting                                   *nv-search-highlighting*\n\nSearch highlighting can be customized. The styles can be configured via\nthe following settings: >\n\n    // Current search style.\n    // Valid values are: fill, outline, underline, squiggly_underline,\n    // stippled_underline.\n    \"neovintageous_search_cur_style\": \"fill\",\n\n    // Incremental search style.\n    // Valid values are: fill, outline, underline, squiggly_underline,\n    // stippled_underline.\n    \"neovintageous_search_inc_style\": \"fill\",\n\n    // Search occurrences style.\n    // Valid values are: fill, outline, underline, squiggly_underline,\n    // stippled_underline.\n    \"neovintageous_search_occ_style\": \"fill\",\n\nConfigure settings via `Menu > Preferences > Settings`.\n\nTo customise the colors of the styles create a color scheme override. For\nexample if you're using the \"Monokai\" color scheme, create an override file\nnamed `Monokai.sublime-color-scheme` in the Sublime Text User directory: >\n\n    {\n        \"rules\":\n        [\n            {\n                \"scope\": \"neovintageous_search_inc\",\n                \"background\": \"#a1efe4\",\n                \"foreground\": \"#272822\"\n            },\n            {\n                \"scope\": \"neovintageous_search_cur\",\n                \"background\": \"#a1efe4\",\n                \"foreground\": \"#272822\"\n            },\n            {\n                \"scope\": \"neovintageous_search_occ\",\n                \"background\": \"#e6db74\",\n                \"foreground\": \"#272822\"\n            }\n        ]\n    }\n\n==============================================================================\n\nJUMPING TO DIFFS                                             *nv-jumpto-diffs*\n\nTwo commands can be used to jump to diffs.\n\n                                *[c*\n    [c      Jump backwards to the previous start of a change.\n            When a count is used, do it that many times.\n\n                                *]c*\n    ]c      Jump forwards to the next start of a change.\n            When a count is used, do it that many times.\n\nIt is an error if there is no change for the cursor to move to.\n\nNote that in older versions of Sublime Text (builds < 3189) you will need the\nthe GitGutter package: https://github.com/jisaacks/GitGutter.\n\n==============================================================================\n\nTOGGLE COMMAND                                                     *nv-toggle*\n\nIf you want to be able to toggle NeoVintageous on and off, you need to install\nthe toggle package: https://packagecontrol.io/packages/ToggleNeoVintageous.\n\nvim: tw=78 nu nowrap\n",
+					"settings":
+					{
+						"buffer_size": 40457,
+						"line_ending": "Unix",
+						"name": "neovintageous.txt [vim help]",
+						"read_only": true,
+						"scratch": true
+					},
+					"undo_stack":
+					[
+						[
+							2,
+							1,
+							"nv_view",
+							{
+								"action": "insert",
+								"text": "*neovintageous.txt*                                        *nv* *neovintageous*\n\n\n        _   __         _    ___       __\n       / | / /__  ____| |  / (_)___  / /_____ _____ ____  ____  __  _______\n      /  |/ / _ \\/ __ \\ | / / / __ \\/ __/ __ `/ __ `/ _ \\/ __ \\/ / / / ___/\n     / /|  /  __/ /_/ / |/ / / / / / /_/ /_/ / /_/ /  __/ /_/ / /_/ (__  )\n    /_/ |_/\\___/\\____/|___/_/_/ /_/\\__/\\__,_/\\__, /\\___/\\____/\\__,_/____/\n                                            /____/\n                                                    Advanced Vim emulation!\n\n\nJump to a subject:  Position the cursor on a tag (e.g.|bars|and hit CTRL-].\n        Jump back:  Type CTRL-I or CTRL-O.  Repeat to go further back.\n\nVim feature-parity is an ongoing effort, some features are not implemented or\nimplemented fully, and differences are not fully documented.\n\nThe vim documentation is provided in full without modification and this page\ntries to document some feature differences and special features and usage.\n\nPlease open issues to request missing features.\n\nIf you are new to vim also see|help.txt|.\n\n\nCONTENTS                                                         *nv-contents*\n\n    Command Palette ................|nv-command-palette|\n    Multiple cursors ...............|nv-multiple-cursors|\n    Opening a view .................|nv-opening-view|\n    neovintageousrc ................|neovintageousrc|\n    Plugins ........................|nv-plugins|\n        Abolish ........................|nv-abolish|\n        Commentary .....................|nv-commentary|\n        HighlightedYank ................|nv-highlightedyank|\n        Sneak ..........................|nv-sneak|\n        Surround .......................|nv-surround|\n        Unimpaired .....................|nv-unimpaired|\n        Indent Object ..................|nv-indent-object|\n    Options ........................|nv-options|\n    Settings .......................|nv-settings|\n    Search highlighting ............|nv-search-highlighting|\n    Jumping to diffs ...............|nv-jumpto-diffs|\n    Toggle Command .................|nv-toggle|\n\n\n==============================================================================\n\nCOMMAND PALETTE                                           *nv-command-palette*\n\nNeoVintageous: Changelog            Open CHANGELOG.\nNeoVintageous: Open RC File         Open runtime configuration file.\nNeoVintageous: Reload RC File       Reload the runtime configuration file.\nNeoVintageous: Toggle CTRL keys     Turn CTRL key bindings on and off.\nNeoVintageous: Toggle SUPER keys    Turn SUPER key bindings on and off.\n\n==============================================================================\n\nMULTIPLE CURSORS                                         *nv-multiple-cursors*\n\nnormal mode and visual mode\n\n    start:      <C-n> or gh     Start multiple cursor.\n        next:   <C-n> or j      Add next match.\n        skip:   <C-x> or l      Skip next match.\n        prev:   <C-p> or k      Remove current match.\n        all:    <M-n> or A      Select all matches.\n\nYou can now use visual commands e.g. c, I, x, y work without any issues.\n\nYou could also go to normal mode by pressing v and use normal commands there,\nfor example commands like ciw work without any issues.\n\nAt any time you can press <Esc> or J to exit back to regular Vim. To change\nthe behaviour of exiting see 'vintageous_multi_cursor_exit_from_visual_mode'.\n\n<C-n> or gh             Start multiple cursor.\n<C-n> or j              Add next match.\n<C-x> or l              Skip next match.\n<C-p> or k              Remove current match and go back on previous.\n<Esc> or J              Quit and enter normal mode.\n<M-n> or A              Select all matches.\nv                       Enter normal mode.\ngH                      Select all search occurrences (/, ?, *, #).\n\n==============================================================================\n\nOPENING A VIEW                                               *nv-opening-view*\n\nSome windowing commands require the Origami package.\n\nSee: https://packagecontrol.io/packages/Origami.\n\nCTRL-W CTRL-S\nCTRL-W s\nCTRL-W S\n:sp[lit] [file]         Split current window in two. The result is two views\n                        on the same file. See|CTRL-W_s|for more details.\n\nCTRL-W CTRL-V\nCTRL-W v\nCTRL-W V\n:vs[plit] [file]        Like|:split|but split vertically. See|CTRL-W_v|.\n\n==============================================================================\n\nNEOVINTAGEOUSRC                        *nv-rc* *vintageousrc* *neovintageousrc*\n\nA file that contains initialization commands is generically called a \"vimrc\"\nor config file, in NeoVintageous it's \"neovintageousrc\". Each line in a\nneovintageousrc file is executed as an Ex command line.\n\nThe|mapleader|variable is supported. >\n\n    let mapleader=,\n\nThe|set|command is partially supported, see|nv-options|for supported options.\n\n    :se[t] {option}?    Show value of {option}.\n    :se[t] {option}     Toggle option: set, switch it on.\n                        Number option: show value.\n                        String option: show value.\n    :se[t] no{option}   Toggle option: Reset, switch it off.\n    :se[t] {option}!    or\n    :se[t] inv{option}  Toggle option: Invert value.\n\nThe|:map-commands|are partially supported.\n\n    :noremap    {lhs} {rhs}         |:noremap|\n    :nnoremap   {lhs} {rhs}         |:nnoremap|\n    :onoremap   {lhs} {rhs}         |:onoremap|\n    :snoremap   {lhs} {rhs}         |:snoremap|\n    :vnoremap   {lhs} {rhs}         |:vnoremap|\n\nUse <CR> to indicate pressing enter when mapping commands: >\n\n    noremap <C-s> :w<CR>\n\nBasic leading and trailing sequences in mappings is supported: >\n\n    nnoremap <leader>sp vip:sort u<CR>\n\nTo map Sublime Text commands you need to format the command name as MixedCase.\nThe command name is converted to snake_case before being executed by Sublime\nText and basic arguments in the form \"key=value\" are accepted, for example: >\n\n    nnoremap <leader>i :GotoSymbolInProject<CR>\n    nnoremap <leader>f :ShowOverlay overlay=goto text=@<CR>\n\nSupport for chaining user commands is supported. The special <Bar> character\ncan be used to separate commands from the next command: >\n\n    nnoremap <leader>m :Command1<Bar>:Command2<CR>\n\nSuper-keys can be mapped by the `<D-...>` special keys (super-keys are\ndisabled by default, see|nv-settings|for details on enabling them): >\n\n    nnoremap <D-i> :GotoSymbolInProject<CR>\n\nHere is an example neovintageous file: >\n\n    set ignorecase\n    set winaltkeys=menu\n\n    let mapleader=,\n\n    nnoremap <leader><bar> <C-w><bar>\n    nnoremap <leader>= <C-w>=\n    nnoremap <leader>_ <C-w>_\n    nnoremap <leader>d :Neovintageous action=toggle_side_bar<CR>\n    nnoremap <leader>en :Neovintageous action=open_rc_file<CR>\n    nnoremap <leader>f :ShowOverlay overlay=goto text=@<CR>\n    nnoremap <leader>hu :RevertModification<CR>\n    nnoremap <leader>o :ls<CR>\n    nnoremap <leader>q gqip:w<CR>\n    nnoremap <leader>r :reg<CR>\n\n    nnoremap <D-i> :GotoSymbolInProject<CR>\n    noremap <C-l> :nohlsearch<CR>\n    noremap <C-s> :w<CR>\n    noremap <space> :\n\n    noremap <leader>y \"+y\n    noremap <leader>Y \"+Y\n    noremap <leader>p \"+p\n    noremap <leader>P \"+P\n\n    nnoremap <leader>s) vi):sort u<CR>\n    nnoremap <leader>s] vi]:sort u<CR>\n    nnoremap <leader>si vii:sort u<CR>\n    nnoremap <leader>sp vip:sort u<CR>\n    nnoremap <leader>ss vip:sort u<CR>\n    vnoremap <leader>s :sort u<CR>\n\n\nTo enable toggling the side bar when the side bar has focus add the following\nkey binding, Goto  Menu > Preferences > Key Bindings: >\n\n    [\n        {\n            \"keys\": [\",\", \"d\"],\n            \"command\": \"neovintageous\",\n            \"args\": { \"action\": \"toggle_side_bar\" },\n            \"context\": [ { \"key\": \"control\", \"operand\": \"sidebar_tree\" } ]\n        }\n    ]\n\n==============================================================================\n\nPLUGINS                                                 *nv-plugins* *plugins*\n\nPlugin feature-parity is an ongoing effort, features from the original vim\nplugin may not be implemented fully or differences documented fully. The\noriginal plugin documentation is provided in full without modification.\n\nPlease open issues to request missing features.\n\n------------------------------------------------------------------------------\n\nABOLISH                                                 *nv-abolish* *abolish*\n\nCoercion                                               *abolish-coercion* *cr*\n\nAbolish's case mutating algorithms can be applied to the word under the cursor\nusing the cr mapping (mnemonic: CoeRce) followed by one of the following\ncharacters:\n\n  c:       camelCase\n  m:       MixedCase\n  _:       snake_case\n  s:       snake_case\n  u:       SNAKE_UPPERCASE\n  U:       SNAKE_UPPERCASE\n  -:       dash-case (not usually reversible; see|abolish-coercion-reversible|)\n  k:       kebab-case (not usually reversible; see|abolish-coercion-reversible|)\n  .:       dot.case (not usually reversible; see|abolish-coercion-reversible|)\n  <space>: space case (not usually reversible; see|abolish-coercion-reversible|)\n  t:       Title Case (not usually reversible; see|abolish-coercion-reversible|)\n\nFor example, cru on a lowercase word is a slightly easier to type equivalent\nto gUiw.\n\nCoercion Reversibility                           *abolish-coercion-reversible*\n\nSome separators, such as \"-\" and \".\", are listed as \"not usually reversible\".\nThe reason is that these are not \"keyword characters\", so NeoVintageous will\ntreat them as breaking a word.\n\nFor example: \"key_word\" is a single keyword.  The dash-case version,\n\"key-word\", is treated as two keywords, \"key\" and \"word\".\n\nAbolish is a port of the popular vim-abolish.\nhttps://github.com/tpope/vim-abolish.\n\n------------------------------------------------------------------------------\n\nCOMMENTARY                                        *nv-commentary* *commentary*\n\nComment stuff out. Then uncomment it later.\n\n                                                *gc*\ngc{motion}              Comment or uncomment lines that {motion} moves over.\n\n                                                *gcc*\ngcc                     Comment or uncomment [count] lines.\n\n                                                *v_gc*\n{Visual}gc              Comment or uncomment the highlighted lines.\n\n                                                *o_gc*\ngc                      Text object for a comment (operator pending mode\n                        only.)\n\nCommentary is a port of the popular vim-commentary.\nhttps://github.com/tpope/vim-commentary.\n\n------------------------------------------------------------------------------\n\nHIGHLIGHTEDYANK                         *nv-highlightedyank* *highlightedyank*\n\nHighlightedYank is a plugin to highlight the yanked region. This is a pretty\ntrick to make your coding more comfortable.\n\nWhen new text is yanked, the old highlighting is deleted. Or when former lines\nare edited, the highlighting is deleted to prevent shifting the position, also.\n\nThe highlighted duration can be configured by the 'highlightedyank_duration'\nsetting and the style can be configured by the 'highlightedyank_style' setting.\n\nTo customise the colors, create a color scheme override for your color scheme:\nfor example if you have the default Monokai color scheme enabled, create a file\nnamed `Monokai.sublime-color-scheme` in the User directory (find the User\ndirectory location via the Menu: `Preferences > Browse Packages...`), then\ncreate the styles using the scopes: >\n\nTo customise the colors, create a color scheme override: for example if you\nhave the default Monokai color scheme enabled - create a file named\nMonokai.sublime-color-scheme in the Sublime Text User directory\n(Menu > Preferences > BrowsePackages...), and create the styles using the\n\"highlightedyank\" scope: >\n\n    {\n        \"rules\":\n        [\n            {\n                \"scope\": \"highlightedyank\",\n                \"background\": \"#e6db74\",\n                \"foreground\": \"#272822\"\n            }\n        ]\n    }\n\nInspired by the popular vim-highlightedyank.\nhttps://github.com/machakann/vim-highlightedyank\n------------------------------------------------------------------------------\n\nSNEAK                                                       *nv-sneak* *sneak*\n\nSneak provides a way to move quickly and precisely to locations that would be\nawkward to reach with built-in Vim motions.\n\nTo use Sneak, type \"s\" followed by exactly two characters:\n\n    s{char}{char}\n\nThus you can often reach a target with 3 keystrokes. Sneak always moves\nimmediately to the first {char}{char} match. Additional matches are\nhighlighted, you can reach them by pressing ; (just like|f|and|t|).\n\nAbove all, the goal is to get out of your way. See|sneak-usage|for a\nquick-start, and|sneak-features|for full description.\n\nUsage                                                            *sneak-usage*\n\nExample (cursor position indicated with brackets []): >\n    [L]orem ipsum dolor sit amet, consectetur adipisicing elit\n\nType ssi to go to the beginning of the word \"sit\": >\n    Lorem ipsum dolor [s]it amet, consectetur adipisicing elit\n\nType ; (or s again, if|sneak-clever-s|is enabled) to go to the next match: >\n    Lorem ipsum dolor sit amet, consectetur adipi[s]icing elit\n\nType Sdo to go backwards to the beginning of the word \"dolor\": >\n    Lorem ipsum [d]olor sit amet, consectetur adipisicing elit\n\nType dzad to delete from the cursor to the first instance of \"ad\": >\n    Lorem ipsum [a]dipisicing elit\n\nDefault Mappings                                              *sneak-mappings*\n\nNORMAL-MODE~\n    Key Sequence             | Description\n    -------------------------|----------------------------------------------\n    s{char}{char}            | Go to the next occurrence of {char}{char}\n    S{char}{char}            | Go to the previous occurrence of {char}{char}\n    s{char}<Enter>           | Go to the next occurrence of {char}\n    S{char}<Enter>           | Go to the previous occurrence of {char}\n    s<Enter>                 | Repeat the last Sneak.\n    S<Enter>                 | Repeat the last Sneak, in reverse direction.\n    ;                        | Go to the [count]th next match\n    , or \\                   | Go to the [count]th previous match\n    {operator}z{char}{char}  | Perform {operator} from the cursor to the next\n                             | occurrence of {char}{char}\n    {operator}Z{char}{char}  | Perform {operator} from the cursor to the\n                             | previous occurrence of {char}{char}\n\nVISUAL-MODE~\n    Key Sequence             | Description\n    -------------------------|----------------------------------------------\n    s{char}{char}            | Go to the next occurrence of {char}{char}\n    Z{char}{char}            | Go to the previous occurrence of {char}{char}\n    s{char}<Enter>           | Go to the next occurrence of {char}\n    Z{char}<Enter>           | Go to the previous occurrence of {char}\n    s<Enter>                 | Repeat the last Sneak.\n    Z<Enter>                 | Repeat the last Sneak, in reverse direction.\n    ;                        | Go to the [count]th next match\n    , or \\                   | Go to the [count]th previous match\n\n    NOTE: Z goes backwards in visual-mode, because S is taken by the\n   |surround|plugin).\n\nFeatures                                                      *sneak-features*\n\nNORMAL-MODE\n\n`s` (and `S`) waits for two characters, then immediately moves to the next\n(previous) match. Additional matches are highlighted. Works across multiple\nlines.\n\n`;` and `,` repeat the last `s` and `S`. They also work correctly with `f` and\n`t` (unless you or another plugin have mapped `f` or `t` to a custom mapping).\n[count]; and [count], skip to the [count]th match, similar to the behavior of\n[count]f and [count]t.\n\n    Note: If your mapleader is|,|then Sneak maps|\\|instead of|,|.\n\ns<Enter> (\"s\" followed by Enter) always repeats the last search, even if|;|\nand|,|were reset by|f|or|t|.\n\nOPERATIONS\n\nUse `z` for operations. For example, `dzab` deletes from the cursor to the\nnext instance of \"ab\". `dZab` deletes backwards to the previous instance.\n`czab` `cZab` `yzab` and `yZab` also work as expected.\n\nRepeat the operation with dot|.|.\n\nSneak is a port of the popular vim-sneak.\nhttps://github.com/justinmk/vim-sneak.\n------------------------------------------------------------------------------\n\nSURROUND                                              *nv-surround* *surround*\n\nThis plugin is a tool for dealing with pairs of \"surroundings.\"  Examples\nof surroundings include parentheses, quotes, and HTML tags.  They are\nclosely related to what Vim refers to as|text-objects|.  Provided\nare mappings to allow for removing, changing, and adding surroundings.\n\nDetails follow on the exact semantics, but first, consider the following\nexamples.  An asterisk (*) is used to denote the cursor position.\n\n  Old text                  Command     New text ~\n  \"Hello *world!\"           ds\"         Hello world!\n  [123+4*56]/2              cs])        (123+456)/2\n  \"Look ma, I'm *HTML!\"     cs\"<q>      <q>Look ma, I'm HTML!</q>\n  if *x>3 {                 ysW(        if ( x>3 ) {\n  my $str = *whee!;         vllllS'     my $str = 'whee!';\n\nMappings                                                   *surround-mappings*\n\nDelete surroundings is*ds*.  The next character given determines the target\nto delete.  The exact nature of the target is explained in|surround-targets|\nbut essentially it is the last character of a|text-object|.  This mapping\ndeletes the difference between the \"i\"nner object and \"a\"n object.  This is\neasiest to understand with some examples:\n\n  Old text                  Command     New text ~\n  \"Hello *world!\"           ds\"         Hello world!\n  (123+4*56)/2              ds)         123+456/2\n  <div>Yo!*</div>           dst         Yo!\n\nChange surroundings is*cs*.  It takes two arguments, a target like with|ds|,\nand a replacement. *cS*changes surroundings, placing the surrounded text on\nits own line(s) like|yS|.  Details about the second argument can be found\nbelow in|surround-replacements|.  Once again, examples are in order.\n\n  Old text                  Command     New text ~\n  \"Hello *world!\"           cs\"'        'Hello world!'\n  \"Hello *world!\"           cs\"<q>      <q>Hello world!</q>\n  (123+4*56)/2              cs)]        [123+456]/2\n  (123+4*56)/2              cs)[        [ 123+456 ]/2\n  <div>Yo!*</div>           cst<p>      <p>Yo!</p>\n\n*ys* takes a valid Vim motion or text object as the first object, and wraps it\nusing the second argument as with|cs|.  (It's a stretch, but a good mnemonic\nfor \"ys\" is \"you surround\".)\n\n  Old text                  Command     New text ~\n  Hello w*orld!             ysiw)       Hello (world)!\n\nAs a special case,*yss*operates on the current line, ignoring leading\nwhitespace.\n\n  Old text                  Command     New text ~\n      Hello w*orld!         yssB            {Hello world!}\n\nTargets                                                     *surround-targets*\n\nThe|ds|and|cs|commands both take a target as their first argument.  The\npossible targets are based closely on the|text-objects|provided by Vim.\nAll targets are currently just one character.\n\nEight punctuation marks, (, ), {, }, [, ], <, and >, represent themselves\nand their counterparts.  If the opening mark is used, contained whitespace is\nalso trimmed.  The targets b, B, r, and a are aliases for ), }, ], and >\n(the first two mirror Vim; the second two are completely arbitrary and\nsubject to change).\n\nThree quote marks, ', \", `, represent themselves, in pairs.  They are only\nsearched for on the current line.\n\nA t is a pair of HTML or XML tags.  See|tag-blocks|for details.  Remember\nthat you can specify a numerical argument if you want to get to a tag other\nthan the innermost one.\n\nThe letters w, W, and s correspond to a|word| a|WORD| and a|sentence|\nrespectively.  These are special in that they have nothing to delete, and used\nwith|ds|they are a no-op.  With|cs| one could consider them a slight shortcut\nfor ysi (cswb == ysiwb, more or less).\n\nA p represents a|paragraph|  This behaves similarly to w, W, and s above;\nhowever, newlines are sometimes added and/or removed.\n\nReplacements                                           *surround-replacements*\n\nA replacement argument is a single character, and is required by|cs|and|ys|.\nUndefined replacement characters (with the exception of alphabetic characters)\ndefault to placing themselves at the beginning and end of the destination,\nwhich can be useful for characters like / and |.\n\nIf either ), }, ], or > is used, the text is wrapped in the appropriate pair\nof characters.  Similar behavior can be found with (, {, and [ (but not <),\nwhich append an additional space to the inside.  Like with the targets above,\nb, B, r, and a are aliases for ), }, ], and >.  To fulfill the common need for\ncode blocks in C-style languages, <C-}> (which is really <C-]>) adds braces on\nlines separate from the content.\n\nIf t or < is used, Vim prompts for an HTML/XML tag to insert.  You may specify\nattributes here and they will be stripped from the closing tag. If replacing a\ntag, its attributes are kept in the new tag. End your input with > to discard\nthe those attributes. If <C-T> is used, the tags will appear on lines by\nthemselves.\n\nIf f, F, or <C-F> is used, Vim prompts for a function name to insert.  The target\ntext will be wrapped in a function call. If f is used, the text is wrapped with\n() parentheses; F adds additional spaces inside the parentheses. <C-F> inserts the\nfunction name inside the parentheses.\n\n  Old text                  Command           New text ~\n  \"hello\"                   ysWfprint<cr>     print(\"hello\")\n  \"hello\"                   ysWFprint<cr>     print( \"hello\" )\n  \"hello\"                   ysW<C-f>print<cr> (print \"hello\")\n\nIf s is used, a leading but not trailing space is added.  This is useful for\nremoving parentheses from a function call with csbs.\n\nSurround is a port of the popular vim-surround.\nhttps://github.com/tpope/vim-surround.\n------------------------------------------------------------------------------\n\nUNIMPAIRED                                        *nv-unimpaired* *unimpaired*\n\nThis plugin provides several pairs of bracket maps.\n\nNext and Previous                                            *unimpaired-next*\n\nThe following maps all correspond to normal mode commands.  If a count is\ngiven, it becomes an argument to the command.\n\n[b                     |:bprevious|\n]b                     |:bnext|\n[B                     |:bfirst|\n]B                     |:blast|\n[t                     |:tprevious|\n]t                     |:tnext|\n[T                     |:tfirst|\n]T                     |:tlast|\n[l                      Jump to the [count] previous error.\n]l                      Jump to the [count] next error.\n                        https://packagecontrol.io/packages/SublimeLinter\n\n                                                *[n*\n[n                      Go to the previous SCM conflict marker or diff/patch\n                        hunk.  Try d[n inside a conflict.\n\n                                                *]n*\n]n                      Go to the next SCM conflict marker or diff/patch hunk.\n                        Try d]n inside a conflict.\n\nLine Operations                                             *unimpaired-lines*\n\n                                                *[<Space>*\n[<Space>                Add [count] blank lines above the cursor.\n\n                                                *]<Space>*\n]<Space>                Add [count] blank lines below the cursor.\n\n                                                *[e* *v_[e*\n[e                      Exchange the current line with [count] lines above it.\n\n                                                *]e* *v_]e*\n]e                      Exchange the current line with [count] lines below it.\n\nOption Toggling                                          *unimpaired-toggling*\n\n On      Off     Toggle Option\n*[oa*   *]oa*   *yoa*   'menu'\n*[oc*   *]oc*   *yoc*   'cursorline'\n*[oe*   *]oe*   *yoe*   'statusbar'\n*[oh*   *]oh*   *yoh*   'hlsearch'\n*[oi*   *]oi*   *yoi*   'ignorecase'\n*[ol*   *]ol*   *yol*   'list'\n*[om*   *]om*   *yom*   'minimap'\n*[on*   *]on*   *yon*   'number'\n*[or*   *]or*   *yor*   'relativenumber'\n*[ot*   *]ot*   *yot*   'sidebar'\n*[os*   *]os*   *yos*   'spell'\n*[ow*   *]ow*   *yow*   'wrap'\n\nThe mnemonic for y is that if you tilt it a bit it looks like a switch.\n\nUnimpaired is a port of the popular vim-unimpaired.\nhttps://github.com/tpope/vim-unimpaired.\n------------------------------------------------------------------------------\n\nINDENT OBJECT                               *nv-indent-object* *indent-object*\n\nVim text objects provide a convenient way to select and operate on various\ntypes of objects. These objects include regions surrounded by various types of\nbrackets and various parts of language (ie sentences, paragraphs, etc).\n\nThis plugin defines a new text object, based on indentation levels. This is\nvery useful in languages such as Python, in which the syntax defines scope in\nterms of indentation. Using the objects defined in this plugin, an entire if\nstructure can be quickly selected, for example.\n\nText Objects                          *ai* *ii* *aI* *iI*     *indtobj-objects*\n\nThis plugin defines two new text objects. These are very similar - they differ\nonly in whether they include the line below the block or not.\n\n        Key Mapping       Description\n>\n        <count>ai         (A)n (I)ndentation level and line above.\n        <count>ii         (I)nner (I)ndentation level (no line above).\n        <count>aI         (A)n (I)ndentation level and lines above/below.\n        <count>iI         (I)nner (I)ndentation level (no lines above/below).\n\nNote that the iI mapping is mostly included simply for completeness, it is\neffectively a synonym for ii.\n\nJust like regular text objects, these mappings can be used either with\noperators expecting a motion, such as 'd' or 'c', as well as in visual mode.\nIn visual mode the mapping can be repeated, which has the effect of\niteratively increasing the scope of indentation block selected. Specifying a\ncount can be used to achieve the same effect.\n\nThe difference between|ai|and|aI|is that|ai|includes the line immediately\nabove the indentation block, whereas aI includes not only that, but also the\nline below. Which of these is most useful largely depends on the structure of\nthe language being edited.\n\nFor example, when editing the Python code,|ai|is generally more useful, as the\nline above the indentation block is usually related to it. For example, in the\nfollowing code (* is used to indicate the cursor position): >\n\n      if foo > 3:\n         log(\"foo is big\") *\n         foo = 3\n      do_something_else()\n\nthe if clause is logically related to the code block, whereas the function\ncall below is not. It is unlikely we would want to select the line below when\nwe are interested in the if block.\n\nHowever, in other languages, such as Vim scripts, control structures are\nusually terminated with something like 'endif'. Therefore, in this example: >\n\n      if foo > 3\n         echo \"foo is big\" *\n         let foo = 3\n      endif\n      call do_something_else()\n\nwe would more likely want to include the endif when we select the if\nstructure.\n\nIndent Object is a port of the popular vim-indent-object.\nhttps://github.com/michaeljsmith/vim-indent-object\n==============================================================================\n\nOPTIONS                                                           *nv-options*\n\nList of currently supported options:\n\n    'autoindent' 'belloff' 'expandtabs' 'hlsearch' 'ignorecase' 'incsearch'\n    'list' 'magic' 'menu' 'minimap' 'modeline' 'modelines' 'number'\n    'relativenumber', 'shell' 'sidebar' 'smartcase' 'spell' 'statusbar'\n    'tabstop' 'textwidth' 'winaltkeys' 'wrap' 'wrapscan'\n\nSee `:help '{option}'` for help on individual options.\n\n==============================================================================\n\nSETTINGS                                                         *nv-settings*\n\nTo edit settings go to `Menu > Preferences > Settings` or use the Command\nPalette: press `Ctrl+Shift+P` and select the \"Preferences: Settings\" command.\n\nList of available settings:\n\n                                                           *'highlightedyank'*\n'highlightedyank'       boolean (default on)\n        Enable or disable the HighlightedYank plugin.\n\n                                                  *'highlightedyank_duration'*\n'highlightedyank_duration'\n                        number (default 1000)\n        Assign number of time in milliseconds.\n\n                                                     *'highlightedyank_style'*\n'highlightedyank_style' string (default \"fill\")\n        Valid values: fill, outline, underline, squiggly_underline,\n        stippled_underline.\n\n                                             *'neovintageous_search_cur_style'*\n'neovintageous_search_cur_style'\n                        string (default \"fill\")\n        The current search style. Valid values: fill, outline, underline,\n        squiggly_underline, stippled_underline.\n\n                                             *'neovintageous_search_inc_style'*\n'neovintageous_search_inc_style'\n                        string (default \"fill\")\n        The incremental search style. Valid values: fill, outline, underline,\n        squiggly_underline, stippled_underline.\n\n                                             *'neovintageous_search_occ_style'*\n'neovintageous_search_occ_style'\n                        string (default \"fill\")\n        The search occurrences style. Valid values: fill, outline, underline,\n        squiggly_underline, stippled_underline.\n\n                                                           *'vintageous_bell'*\n'vintageous_bell'       string (default \"blink\")\n        Visual bell style type. Valid values are: blink, view, or views.\n\n                                              *'vintageous_bell_color_scheme'*\n'vintageous_bell_color_scheme'\n                        string (default \"dark\")\n        Visual bell color scheme. Valid values are: \"dark\", \"light\", or color\n        scheme path. The color scheme path should be in the format:\n        Packages/Name/name.hidden-color-scheme\n\n                                                   *'vintageous_default_mode'*\n'vintageous_default_mode'\n                        string (default \"\")\n        The default mode to use when activating or switching views.\n\n        Valid values are: \"insert\" or \"\".\n\n        mode   | description\n        ------ | -----------\n        insert | Enter insert mode when opening or switching views or when the\n                 window receives focus and is not in visual mode i.e. visual\n                 mode selections are retained when the window loses focus.\n\n                                                 *'vintageous_enable_abolish'*\n'vintageous_enable_abolish'\n                        boolean (default on)\n        Plugin: A port of https://github.com/tpope/vim-abolish.\n\n                                              *'vintageous_enable_commentary'*\n'vintageous_enable_commentary'\n                        boolean (default on)\n        Plugin: A port of https://github.com/tpope/vim-commentary.\n\n                                        *'vintageous_enable_multiple_cursors'*\n'vintageous_enable_multiple_cursors'\n                        boolean (default on)\n        Plugin: A port of https://github.com/terryma/vim-multiple-cursors.\n\n                                                   *'vintageous_enable_sneak'*\n'vintageous_enable_sneak'\n                        boolean (default off)\n        Plugin: A port of https://github.com/justinmk/vim-sneak.\n\n                                                *'vintageous_enable_sublime'*\n'vintageous_enable_sublime'\n                        boolean (default on)\n        Plugin: Supports specific Sublime Text enhancements and tweaks.\n\n                                                *'vintageous_enable_surround'*\n'vintageous_enable_surround'\n                        boolean (default on)\n        Plugin: A port of https://github.com/tpope/vim-surround.\n\n                                              *'vintageous_enable_unimpaired'*\n'vintageous_enable_unimpaired'\n                        boolean (default on)\n        Plugin: A port of https://github.com/tpope/vim-unimpaired.\n\n'vintageous_handle_keys'                            *'vintageous_handle_keys'*\n                        boolean (default {})\n        Delegate configured keys to be handled by Sublime Text. \n\n        For example to use ctrl+f for find (native ST behaviour):\n\n            \"vintageous_handle_keys\": {\n                \"<C-f>\": false\n            }\n\n        Keys can be delegated by mode too e.g. i_<C-w>, v_<C-w>. The following\n        will only delegate <C-w> back to ST when in insert or visual mode:\n\n            \"vintageous_handle_keys\": {\n                \"i_<C-w>\": false\n                \"v_<C-w>\": false\n            }\n\n        The valid mode prefixes are:\n\n            n_ - Normal\n            i_ - Insert\n            v_ - Visual\n            V_ - Visual line\n            b_ - Visual block\n            s_ - Select\n\n        No prefix implies all modes.\n\n        Any keybinding defined in the default keymap file that has\n        a \"nv_handle_key\" context constraint can be configured to delegate\n        back to ST.\n        See https://github.com/NeoVintageous/NeoVintageous/blob/master/Default.sublime-keymap\n\n                                              *'vintageous_i_escape_jj'*\n'vintageous_i_escape_jj'\n                        boolean (default off)\n        If set to true, then pressing jj in insert mode maps to <Esc>.\n\n                                              *'vintageous_i_escape_jk'*\n'vintageous_i_escape_jk'\n                        boolean (default off)\n        If set to true, then pressing jk in insert mode maps to <Esc>.\n\n                             *'vintageous_multi_cursor_exit_from_visual_mode'*\n'vintageous_multi_cursor_exit_from_visual_mode'\n                        boolean (default off)\n        If set to false, then pressing the quit key (<Esc> or J) in Visual\n        mode will not quit and delete all existing cursors. Useful if you want\n        to go back to Normal mode, and still be able to operate on all the\n        cursors.\n\n                                 *'vintageous_reset_mode_when_switching_tabs'*\n'vintageous_reset_mode_when_switching_tabs'\n                        boolean (default on)\n        Reset to normal mode when a view is activated.\n\n                                                   *'vintageous_shell_silent'*\n'vintageous_shell_silent'\n                        boolean (default off)\n        Show output panel from shell commands.\n\n                                               *'vintageous_sneak_use_ic_scs'*\n'vintageous_sneak_use_ic_scs'\n                        number (default 0)\n        0: Always case-sensitive\n        1: Case sensitivity is determined by 'ignorecase' and 'smartcase'.\n\n                                                  *'vintageous_use_ctrl_keys'*\n'vintageous_use_ctrl_keys'\n                        boolean (default on)\n        Enable key bindings prefaced by the ctrl-key.\n\n                                                 *'vintageous_use_super_keys'*\n'vintageous_use_super_keys'\n                        boolean (default off)\n        Enable key bindings prefaced by the super-key, otherwise known as the\n        command-key in OSX, and as the windows-key in Windows.\n\n                                              *'vintageous_use_sys_clipboard'*\n'vintageous_use_sys_clipboard'\n                        boolean (default off)\n        Propagate copy actions to the system clipboard.\n\n------------------------------------------------------------------------------\n\nMapping capslock to escape                                       *nv-capslock*\n\nNeovintageous cannot remap the CapsLock, however it can be remapped at an OS\nlevel. For example, on Ubuntu you can map CapsLock to Escape at the terminal\nusing a tool called gsettings: >\n\n    gsettings set org.gnome.desktop.input-sources xkb-options \"['caps:escape']\"\n\n------------------------------------------------------------------------------\n\nHolding down a key like j does not repeat the command                   *nv-j*\n\nThis is a feature of OS X Lion and newer versions. To make a key repeat a\ncommand when holding it down, run this once at the terminal: >\n\n    defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false\n\n------------------------------------------------------------------------------\n\nKey presses are laggy or slow                             *nv-keyboard-repeat*\n\nIf key presses are slow or laggy first check the system configuration, for\nexample on Ubuntu you can configure keyboard repeat interval and delay: >\n\n    gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 15\n    gsettings set org.gnome.desktop.peripherals.keyboard delay 180\n\nand for KDE: >\n\n    systemsettings5 kcm_keyboard\n\nbrings up a window where you can change 'Delay' and 'Rate' as required.\n\nIn general if you are on X11 type systems you could directly use: >\n\n    xset r rate <milliseconds_before_repeating> <repetitions_per_second>\n\n------------------------------------------------------------------------------\n\nCustom key bindings in insert mode                                 *nv-escape*\n\nIf you need a custom insert mode key binding you can use the\n\"vi_insert_mode_aware\" context in your key binding: >\n\n    {\n        \"keys\": [...],\n        \"command\": \"...\",\n        \"context\": [{\"key\": \"vi_insert_mode_aware\"}]\n    }\n\n------------------------------------------------------------------------------\n\nSearch highlighting                                   *nv-search-highlighting*\n\nSearch highlighting can be customized. The styles can be configured via\nthe following settings: >\n\n    // Current search style.\n    // Valid values are: fill, outline, underline, squiggly_underline,\n    // stippled_underline.\n    \"neovintageous_search_cur_style\": \"fill\",\n\n    // Incremental search style.\n    // Valid values are: fill, outline, underline, squiggly_underline,\n    // stippled_underline.\n    \"neovintageous_search_inc_style\": \"fill\",\n\n    // Search occurrences style.\n    // Valid values are: fill, outline, underline, squiggly_underline,\n    // stippled_underline.\n    \"neovintageous_search_occ_style\": \"fill\",\n\nConfigure settings via `Menu > Preferences > Settings`.\n\nTo customise the colors of the styles create a color scheme override. For\nexample if you're using the \"Monokai\" color scheme, create an override file\nnamed `Monokai.sublime-color-scheme` in the Sublime Text User directory: >\n\n    {\n        \"rules\":\n        [\n            {\n                \"scope\": \"neovintageous_search_inc\",\n                \"background\": \"#a1efe4\",\n                \"foreground\": \"#272822\"\n            },\n            {\n                \"scope\": \"neovintageous_search_cur\",\n                \"background\": \"#a1efe4\",\n                \"foreground\": \"#272822\"\n            },\n            {\n                \"scope\": \"neovintageous_search_occ\",\n                \"background\": \"#e6db74\",\n                \"foreground\": \"#272822\"\n            }\n        ]\n    }\n\n==============================================================================\n\nJUMPING TO DIFFS                                             *nv-jumpto-diffs*\n\nTwo commands can be used to jump to diffs.\n\n                                *[c*\n    [c      Jump backwards to the previous start of a change.\n            When a count is used, do it that many times.\n\n                                *]c*\n    ]c      Jump forwards to the next start of a change.\n            When a count is used, do it that many times.\n\nIt is an error if there is no change for the cursor to move to.\n\nNote that in older versions of Sublime Text (builds < 3189) you will need the\nthe GitGutter package: https://github.com/jisaacks/GitGutter.\n\n==============================================================================\n\nTOGGLE COMMAND                                                     *nv-toggle*\n\nIf you want to be able to toggle NeoVintageous on and off, you need to install\nthe toggle package: https://packagecontrol.io/packages/ToggleNeoVintageous.\n\nvim: tw=78 nu nowrap\n"
+							},
+							"AQAAAAAAAAAAAAAACZ4AAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/utkarsh/Documents/Cpp_Journey"
+			],
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 41.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"push_back",
+					"pq"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/utkarsh/Documents/Cpp_Journey"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/utkarsh/Documents/Cpp_Journey/a.cpp",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9181,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										8744,
+										8744
+									]
+								],
+								"settings":
+								{
+									"highlight_line": false,
+									"syntax": "Packages/C++/C++.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 6194.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 40457,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3354,
+										3401
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"auto_indent": false,
+									"auto_match_enabled": false,
+									"draw_centered": false,
+									"draw_indent_guides": false,
+									"line_numbers": false,
+									"match_selection": false,
+									"rulers":
+									[
+									],
+									"scroll_past_end": false,
+									"smart_indent": false,
+									"syntax": "Packages/NeoVintageous/res/Help.sublime-syntax",
+									"tab_size": 8,
+									"translate_tabs_to_spaces": false,
+									"trim_automatic_white_space": false,
+									"word_wrap": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 41.0
+			},
+			"input":
+			{
+				"height": 63.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,5,43,805,643,1366,768,0",
+			"project": "",
+			"replace":
+			{
+				"height": 78.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"_vintageous_last_buffer_search": "pq",
+				"_vintageous_last_buffer_search_command": "nv_vi_octothorp",
+				"_vintageous_reset_during_init": true
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 4,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

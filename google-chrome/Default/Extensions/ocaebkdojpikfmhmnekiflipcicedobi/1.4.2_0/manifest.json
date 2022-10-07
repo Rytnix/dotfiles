@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://imo.im/"
+      },
+      "urls": [ "https://imo.im/" ]
+   },
+   "description": "imo's free text, voice and video chat make it easy to stay in touch with your family and friends, wherever they are.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYZuQHDRqv8uo5cqxYPzmaxmDOUEHMw6bVIAlLi6Yy3KR1qrrMtMZYmTk7rveqUDvpljD1q1Z7W5qdPnFA58rRn5mucJnjckyQtOO7EYjmDB3WLq6LeI08/UACkTYndTr90iTQ5LyamSWTp/hUMoQc3lP6XCRYC8V5lXrAezuuxQIDAQAB",
+   "manifest_version": 2,
+   "name": "imo free video calls and text",
+   "permissions": [ "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.2"
+}
