@@ -597,7 +597,7 @@
     <keybind key="A-F6">
       <action name="ToggleMaximize"/>
     </keybind>
-    <keybind key="A-F7">
+    <keybind key="A-k">
       <action name="ToggleDecorations"/>
     </keybind>
     <keybind key="W-d">

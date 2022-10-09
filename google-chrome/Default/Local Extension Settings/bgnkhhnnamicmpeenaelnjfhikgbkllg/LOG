@@ -1,24 +1,5 @@
-2022/10/09-13:52:34.844 f846 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
-2022/10/09-13:52:34.845 f846 Recovering log #373
-2022/10/09-13:52:34.850 f846 Reusing old log /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/000373.log 
-2022/10/09-13:55:41.084 fc10 Level-0 table #377: started
-2022/10/09-13:55:41.116 fc10 Level-0 table #377: 1430924 bytes OK
-2022/10/09-13:55:41.119 fc10 Delete type=0 #373
-2022/10/09-13:55:41.119 fc10 Compacting 4@0 + 1@1 files
-2022/10/09-13:55:41.138 fc10 Generated table #378@0: 2 keys, 306583 bytes
-2022/10/09-13:55:41.138 fc10 Compacted 4@0 + 1@1 files => 306583 bytes
-2022/10/09-13:55:41.140 fc10 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/10/09-13:55:41.141 fc10 Delete type=2 #372
-2022/10/09-13:55:41.141 fc10 Delete type=2 #370
-2022/10/09-13:55:41.141 fc10 Delete type=2 #377
-2022/10/09-13:55:41.141 fc10 Delete type=2 #374
-2022/10/09-13:55:41.141 fc10 Delete type=2 #368
-2022/10/09-14:05:56.525 fc0f Level-0 table #380: started
-2022/10/09-14:05:56.551 fc0f Level-0 table #380: 1430927 bytes OK
-2022/10/09-14:05:56.555 fc0f Delete type=0 #376
-2022/10/09-14:11:42.481 ff7a Level-0 table #382: started
-2022/10/09-14:11:42.509 ff7a Level-0 table #382: 1430927 bytes OK
-2022/10/09-14:11:42.512 ff7a Delete type=0 #379
-2022/10/09-14:12:23.623 ffc0 Level-0 table #384: started
-2022/10/09-14:12:23.654 ffc0 Level-0 table #384: 1430929 bytes OK
-2022/10/09-14:12:23.656 ffc0 Delete type=0 #381
+2022/10/09-21:18:03.444 16252 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
+2022/10/09-21:18:03.444 16252 Recovering log #400
+2022/10/09-21:18:03.456 16252 Level-0 table #403: started
+2022/10/09-21:18:03.487 16252 Level-0 table #403: 1430904 bytes OK
+2022/10/09-21:18:03.491 16252 Delete type=0 #400

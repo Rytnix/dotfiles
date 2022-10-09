@@ -1,72 +1,42 @@
-2022/10/09-12:31:36.512 e233 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
-2022/10/09-12:31:36.512 e233 Recovering log #341
-2022/10/09-12:31:36.523 e233 Reusing old log /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/000341.log 
-2022/10/09-12:31:49.035 e20e Level-0 table #345: started
-2022/10/09-12:31:49.075 e20e Level-0 table #345: 1430938 bytes OK
-2022/10/09-12:31:49.079 e20e Delete type=0 #341
-2022/10/09-12:32:23.783 e211 Level-0 table #347: started
-2022/10/09-12:32:23.810 e211 Level-0 table #347: 1430928 bytes OK
-2022/10/09-12:32:23.813 e211 Delete type=0 #344
-2022/10/09-12:32:37.190 e20f Level-0 table #349: started
-2022/10/09-12:32:37.220 e20f Level-0 table #349: 1430934 bytes OK
-2022/10/09-12:32:37.223 e20f Delete type=0 #346
-2022/10/09-12:32:37.224 e20f Compacting 4@0 + 1@1 files
-2022/10/09-12:32:37.250 e20f Generated table #350@0: 2 keys, 306583 bytes
-2022/10/09-12:32:37.250 e20f Compacted 4@0 + 1@1 files => 306583 bytes
-2022/10/09-12:32:37.252 e20f compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/10/09-12:32:37.253 e20f Delete type=2 #340
-2022/10/09-12:32:37.253 e20f Delete type=2 #349
-2022/10/09-12:32:37.253 e20f Delete type=2 #345
-2022/10/09-12:32:37.253 e20f Delete type=2 #347
-2022/10/09-12:32:37.253 e20f Delete type=2 #342
-2022/10/09-12:57:06.253 e7ce Level-0 table #352: started
-2022/10/09-12:57:06.281 e7ce Level-0 table #352: 1430935 bytes OK
-2022/10/09-12:57:06.284 e7ce Delete type=0 #348
-2022/10/09-12:57:21.453 e8e9 Level-0 table #354: started
-2022/10/09-12:57:21.484 e8e9 Level-0 table #354: 1430936 bytes OK
-2022/10/09-12:57:21.487 e8e9 Delete type=0 #351
-2022/10/09-13:01:14.417 e4f3 Level-0 table #356: started
-2022/10/09-13:01:14.460 e4f3 Level-0 table #356: 1430917 bytes OK
-2022/10/09-13:01:14.464 e4f3 Delete type=0 #353
-2022/10/09-13:02:00.817 e8e9 Level-0 table #358: started
-2022/10/09-13:02:00.848 e8e9 Level-0 table #358: 1430902 bytes OK
-2022/10/09-13:02:00.852 e8e9 Delete type=0 #355
-2022/10/09-13:02:00.854 e8e9 Compacting 4@0 + 1@1 files
-2022/10/09-13:02:00.893 e8e9 Generated table #359@0: 2 keys, 306577 bytes
-2022/10/09-13:02:00.893 e8e9 Compacted 4@0 + 1@1 files => 306577 bytes
-2022/10/09-13:02:00.896 e8e9 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/10/09-13:02:00.897 e8e9 Delete type=2 #354
-2022/10/09-13:02:00.897 e8e9 Delete type=2 #350
-2022/10/09-13:02:00.897 e8e9 Delete type=2 #358
-2022/10/09-13:02:00.897 e8e9 Delete type=2 #356
-2022/10/09-13:02:00.897 e8e9 Delete type=2 #352
-2022/10/09-13:05:24.575 e4f3 Level-0 table #361: started
-2022/10/09-13:05:24.601 e4f3 Level-0 table #361: 1430911 bytes OK
-2022/10/09-13:05:24.604 e4f3 Delete type=0 #357
-2022/10/09-13:06:49.366 eba2 Level-0 table #363: started
-2022/10/09-13:06:49.391 eba2 Level-0 table #363: 1430895 bytes OK
-2022/10/09-13:06:49.394 eba2 Delete type=0 #360
-2022/10/09-13:15:36.058 ee09 Level-0 table #365: started
-2022/10/09-13:15:36.108 ee09 Level-0 table #365: 1430920 bytes OK
-2022/10/09-13:15:36.112 ee09 Delete type=0 #362
-2022/10/09-13:15:43.799 ee9a Level-0 table #367: started
-2022/10/09-13:15:43.825 ee9a Level-0 table #367: 1430915 bytes OK
-2022/10/09-13:15:43.828 ee9a Delete type=0 #364
-2022/10/09-13:15:43.829 ee9a Compacting 4@0 + 1@1 files
-2022/10/09-13:15:43.854 ee9a Generated table #368@0: 2 keys, 306581 bytes
-2022/10/09-13:15:43.854 ee9a Compacted 4@0 + 1@1 files => 306581 bytes
-2022/10/09-13:15:43.858 ee9a compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/10/09-13:15:43.858 ee9a Delete type=2 #367
-2022/10/09-13:15:43.858 ee9a Delete type=2 #361
-2022/10/09-13:15:43.858 ee9a Delete type=2 #363
-2022/10/09-13:15:43.858 ee9a Delete type=2 #359
-2022/10/09-13:15:43.858 ee9a Delete type=2 #365
-2022/10/09-13:22:01.027 f062 Level-0 table #370: started
-2022/10/09-13:22:01.081 f062 Level-0 table #370: 1430928 bytes OK
-2022/10/09-13:22:01.084 f062 Delete type=0 #366
-2022/10/09-13:23:11.212 f062 Level-0 table #372: started
-2022/10/09-13:23:11.238 f062 Level-0 table #372: 1430925 bytes OK
-2022/10/09-13:23:11.241 f062 Delete type=0 #369
-2022/10/09-13:51:45.273 f770 Level-0 table #374: started
-2022/10/09-13:51:45.323 f770 Level-0 table #374: 1430926 bytes OK
-2022/10/09-13:51:45.326 f770 Delete type=0 #371
+2022/10/09-20:48:11.420 15524 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
+2022/10/09-20:48:11.420 15524 Recovering log #383
+2022/10/09-20:48:11.431 15524 Reusing old log /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/000383.log 
+2022/10/09-20:51:59.791 155e3 Level-0 table #387: started
+2022/10/09-20:51:59.827 155e3 Level-0 table #387: 1430881 bytes OK
+2022/10/09-20:51:59.830 155e3 Delete type=0 #383
+2022/10/09-20:51:59.831 155e3 Compacting 4@0 + 1@1 files
+2022/10/09-20:51:59.858 155e3 Generated table #388@0: 2 keys, 306569 bytes
+2022/10/09-20:51:59.859 155e3 Compacted 4@0 + 1@1 files => 306569 bytes
+2022/10/09-20:51:59.861 155e3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/09-20:51:59.861 155e3 Delete type=2 #387
+2022/10/09-20:51:59.861 155e3 Delete type=2 #384
+2022/10/09-20:51:59.861 155e3 Delete type=2 #382
+2022/10/09-20:51:59.861 155e3 Delete type=2 #378
+2022/10/09-20:51:59.861 155e3 Delete type=2 #380
+2022/10/09-20:52:41.931 155e2 Level-0 table #390: started
+2022/10/09-20:52:41.972 155e2 Level-0 table #390: 1430866 bytes OK
+2022/10/09-20:52:41.976 155e2 Delete type=0 #386
+2022/10/09-20:54:25.003 15732 Level-0 table #392: started
+2022/10/09-20:54:25.054 15732 Level-0 table #392: 1430879 bytes OK
+2022/10/09-20:54:25.058 15732 Delete type=0 #389
+2022/10/09-21:01:21.798 15895 Level-0 table #394: started
+2022/10/09-21:01:21.827 15895 Level-0 table #394: 1430881 bytes OK
+2022/10/09-21:01:21.829 15895 Delete type=0 #391
+2022/10/09-21:03:38.937 15919 Level-0 table #396: started
+2022/10/09-21:03:38.988 15919 Level-0 table #396: 1430900 bytes OK
+2022/10/09-21:03:38.992 15919 Delete type=0 #393
+2022/10/09-21:03:38.994 15919 Compacting 4@0 + 1@1 files
+2022/10/09-21:03:39.044 15919 Generated table #397@0: 2 keys, 306578 bytes
+2022/10/09-21:03:39.044 15919 Compacted 4@0 + 1@1 files => 306578 bytes
+2022/10/09-21:03:39.047 15919 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/09-21:03:39.047 15919 Delete type=2 #396
+2022/10/09-21:03:39.047 15919 Delete type=2 #390
+2022/10/09-21:03:39.047 15919 Delete type=2 #394
+2022/10/09-21:03:39.047 15919 Delete type=2 #392
+2022/10/09-21:03:39.047 15919 Delete type=2 #388
+2022/10/09-21:04:36.138 15895 Level-0 table #399: started
+2022/10/09-21:04:36.162 15895 Level-0 table #399: 1430912 bytes OK
+2022/10/09-21:04:36.165 15895 Delete type=0 #395
+2022/10/09-21:05:53.180 15919 Level-0 table #401: started
+2022/10/09-21:05:53.208 15919 Level-0 table #401: 1430903 bytes OK
+2022/10/09-21:05:53.211 15919 Delete type=0 #398

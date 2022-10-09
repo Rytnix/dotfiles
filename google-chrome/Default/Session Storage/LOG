@@ -1,15 +1,3 @@
-2022/10/09-13:52:33.126 5 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2022/10/09-13:52:33.127 5 Recovering log #25
-2022/10/09-13:52:33.134 5 Reusing old log /home/utkarsh/.config/google-chrome/Default/Session Storage/000025.log 
-2022/10/09-14:06:00.950 b Level-0 table #29: started
-2022/10/09-14:06:00.957 b Level-0 table #29: 20199 bytes OK
-2022/10/09-14:06:00.961 b Delete type=0 #25
-2022/10/09-14:06:00.961 b Compacting 4@0 + 1@1 files
-2022/10/09-14:06:00.967 b Generated table #30@0: 1312 keys, 30232 bytes
-2022/10/09-14:06:00.967 b Compacted 4@0 + 1@1 files => 30232 bytes
-2022/10/09-14:06:00.970 b compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/10/09-14:06:00.971 b Delete type=2 #19
-2022/10/09-14:06:00.971 b Delete type=2 #26
-2022/10/09-14:06:00.971 b Delete type=2 #21
-2022/10/09-14:06:00.971 b Delete type=2 #29
-2022/10/09-14:06:00.971 b Delete type=2 #24
+2022/10/09-21:18:01.600 5 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2022/10/09-21:18:01.601 5 Recovering log #28
+2022/10/09-21:18:01.602 5 Reusing old log /home/utkarsh/.config/google-chrome/Default/Session Storage/000028.log 
