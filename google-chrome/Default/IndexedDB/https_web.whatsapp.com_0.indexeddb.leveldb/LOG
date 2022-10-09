@@ -1,30 +1,57 @@
-2022/10/09-11:02:35.983 bc0d Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/10/09-11:02:35.984 bc0d Recovering log #310
-2022/10/09-11:02:36.159 bc0d Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000310.log 
-2022/10/09-11:02:46.020 bc28 Level-0 table #324: started
-2022/10/09-11:02:46.090 bc28 Level-0 table #324: 1399275 bytes OK
-2022/10/09-11:02:46.097 bc28 Delete type=0 #310
-2022/10/09-11:02:46.105 bc28 Compacting 1@1 + 10@2 files
-2022/10/09-11:02:46.296 bc28 Generated table #325@1: 39317 keys, 2309386 bytes
-2022/10/09-11:02:46.378 bc28 Generated table #326@1: 10830 keys, 2167765 bytes
-2022/10/09-11:02:46.485 bc28 Generated table #327@1: 2346 keys, 2151040 bytes
-2022/10/09-11:02:46.708 bc28 Generated table #328@1: 3371 keys, 2158242 bytes
-2022/10/09-11:02:47.233 bc28 Generated table #329@1: 15621 keys, 2189796 bytes
-2022/10/09-11:02:48.284 bc28 Generated table #330@1: 26301 keys, 2267212 bytes
-2022/10/09-11:02:48.772 bc28 Generated table #331@1: 12233 keys, 2145015 bytes
-2022/10/09-11:02:49.066 bc28 Generated table #332@1: 102243 keys, 2254882 bytes
-2022/10/09-11:02:49.518 bc28 Generated table #333@1: 99931 keys, 2251028 bytes
-2022/10/09-11:02:49.613 bc28 Generated table #334@1: 23437 keys, 564127 bytes
-2022/10/09-11:02:49.614 bc28 Compacted 1@1 + 10@2 files => 20458493 bytes
-2022/10/09-11:02:49.618 bc28 compacted to: files[ 0 0 10 0 0 0 0 ]
-2022/10/09-11:02:49.619 bc28 Delete type=2 #324
-2022/10/09-11:02:49.619 bc28 Delete type=2 #318
-2022/10/09-11:02:49.619 bc28 Delete type=2 #319
-2022/10/09-11:02:49.619 bc28 Delete type=2 #316
-2022/10/09-11:02:49.619 bc28 Delete type=2 #320
-2022/10/09-11:02:49.619 bc28 Delete type=2 #312
-2022/10/09-11:02:49.619 bc28 Delete type=2 #317
-2022/10/09-11:02:49.619 bc28 Delete type=2 #314
-2022/10/09-11:02:49.620 bc28 Delete type=2 #315
-2022/10/09-11:02:49.620 bc28 Delete type=2 #321
-2022/10/09-11:02:49.620 bc28 Delete type=2 #313
+2022/10/09-14:10:41.179 fc0f Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/09-14:10:41.179 fc0f Recovering log #323
+2022/10/09-14:10:41.261 fc0f Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000323.log 
+2022/10/09-14:10:45.346 fc0f Level-0 table #337: started
+2022/10/09-14:10:45.396 fc0f Level-0 table #337: 1337358 bytes OK
+2022/10/09-14:10:45.399 fc0f Delete type=0 #323
+2022/10/09-14:10:46.629 ff7a Compacting 1@1 + 10@2 files
+2022/10/09-14:10:46.735 ff7a Generated table #338@1: 40405 keys, 2311838 bytes
+2022/10/09-14:10:46.788 ff7a Generated table #339@1: 14081 keys, 2181590 bytes
+2022/10/09-14:10:46.824 ff7a Generated table #340@1: 2286 keys, 2151953 bytes
+2022/10/09-14:10:46.864 ff7a Generated table #341@1: 3241 keys, 2157681 bytes
+2022/10/09-14:10:46.915 ff7a Generated table #342@1: 13107 keys, 2174840 bytes
+2022/10/09-14:10:47.006 ff7a Generated table #343@1: 25969 keys, 2268887 bytes
+2022/10/09-14:10:47.069 ff7a Generated table #344@1: 14544 keys, 2162000 bytes
+2022/10/09-14:10:47.185 ff7a Generated table #345@1: 89547 keys, 2237150 bytes
+2022/10/09-14:10:47.298 ff7a Generated table #346@1: 99737 keys, 2250582 bytes
+2022/10/09-14:10:47.342 ff7a Generated table #347@1: 37915 keys, 888929 bytes
+2022/10/09-14:10:47.342 ff7a Compacted 1@1 + 10@2 files => 20785450 bytes
+2022/10/09-14:10:47.345 ff7a compacted to: files[ 0 0 10 0 0 0 0 ]
+2022/10/09-14:10:47.346 ff7a Delete type=2 #325
+2022/10/09-14:10:47.346 ff7a Delete type=2 #329
+2022/10/09-14:10:47.346 ff7a Delete type=2 #327
+2022/10/09-14:10:47.346 ff7a Delete type=2 #332
+2022/10/09-14:10:47.346 ff7a Delete type=2 #328
+2022/10/09-14:10:47.346 ff7a Delete type=2 #337
+2022/10/09-14:10:47.346 ff7a Delete type=2 #334
+2022/10/09-14:10:47.346 ff7a Delete type=2 #331
+2022/10/09-14:10:47.346 ff7a Delete type=2 #330
+2022/10/09-14:10:47.346 ff7a Delete type=2 #333
+2022/10/09-14:10:47.346 ff7a Delete type=2 #326
+2022/10/09-14:10:53.464 fc0f Level-0 table #349: started
+2022/10/09-14:10:53.505 fc0f Level-0 table #349: 1212315 bytes OK
+2022/10/09-14:10:53.508 fc0f Delete type=0 #336
+2022/10/09-14:10:53.599 fc0f Compacting 1@1 + 10@2 files
+2022/10/09-14:10:53.729 fc0f Generated table #350@1: 41291 keys, 2305937 bytes
+2022/10/09-14:10:53.773 fc0f Generated table #351@1: 14113 keys, 2191696 bytes
+2022/10/09-14:10:53.803 fc0f Generated table #352@1: 2251 keys, 2149609 bytes
+2022/10/09-14:10:53.838 fc0f Generated table #353@1: 3137 keys, 2154596 bytes
+2022/10/09-14:10:53.881 fc0f Generated table #354@1: 12005 keys, 2169506 bytes
+2022/10/09-14:10:53.963 fc0f Generated table #355@1: 25853 keys, 2270470 bytes
+2022/10/09-14:10:54.018 fc0f Generated table #356@1: 15967 keys, 2169960 bytes
+2022/10/09-14:10:54.109 fc0f Generated table #357@1: 83072 keys, 2229017 bytes
+2022/10/09-14:10:54.216 fc0f Generated table #358@1: 99790 keys, 2249904 bytes
+2022/10/09-14:10:54.268 fc0f Generated table #359@1: 45824 keys, 1070324 bytes
+2022/10/09-14:10:54.268 fc0f Compacted 1@1 + 10@2 files => 20961019 bytes
+2022/10/09-14:10:54.272 fc0f compacted to: files[ 0 0 10 0 0 0 0 ]
+2022/10/09-14:10:54.272 fc0f Delete type=2 #343
+2022/10/09-14:10:54.272 fc0f Delete type=2 #341
+2022/10/09-14:10:54.272 fc0f Delete type=2 #338
+2022/10/09-14:10:54.272 fc0f Delete type=2 #340
+2022/10/09-14:10:54.272 fc0f Delete type=2 #349
+2022/10/09-14:10:54.272 fc0f Delete type=2 #345
+2022/10/09-14:10:54.272 fc0f Delete type=2 #346
+2022/10/09-14:10:54.272 fc0f Delete type=2 #339
+2022/10/09-14:10:54.272 fc0f Delete type=2 #347
+2022/10/09-14:10:54.272 fc0f Delete type=2 #342
+2022/10/09-14:10:54.273 fc0f Delete type=2 #344
