@@ -1,0 +1,10 @@
+2022/10/09-10:41:34.483 a8b1 Creating DB /home/utkarsh/.config/Postman/Partitions/5266759c-8e7b-45e0-a5dc-4d4ddc90f033/IndexedDB/file__0.indexeddb.leveldb since it was missing.
+2022/10/09-10:41:34.493 a8b1 Reusing MANIFEST /home/utkarsh/.config/Postman/Partitions/5266759c-8e7b-45e0-a5dc-4d4ddc90f033/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2022/10/09-10:41:34.529 a88e Level-0 table #5: started
+2022/10/09-10:41:34.531 a88e Level-0 table #5: 492 bytes OK
+2022/10/09-10:41:34.533 a88e Delete type=0 #3
+2022/10/09-10:41:34.534 a88e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/10/09-10:41:34.613 a88f Level-0 table #7: started
+2022/10/09-10:41:34.615 a88f Level-0 table #7: 477 bytes OK
+2022/10/09-10:41:34.618 a88f Delete type=0 #4
+2022/10/09-10:41:34.618 a88f Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

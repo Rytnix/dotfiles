@@ -1,0 +1,7 @@
+2022/10/07-15:44:32.828 5474 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/07-15:44:32.828 5474 Recovering log #3
+2022/10/07-15:44:32.829 5474 Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log 
+2022/10/07-15:45:35.792 6c50 Level-0 table #5: started
+2022/10/07-15:45:35.796 6c50 Level-0 table #5: 5123 bytes OK
+2022/10/07-15:45:35.799 6c50 Delete type=0 #3
+2022/10/07-15:45:35.800 6c50 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

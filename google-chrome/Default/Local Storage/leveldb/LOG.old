@@ -1,6 +1,21 @@
-2022/10/07-12:41:43.332 5 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2022/10/07-12:41:43.333 5 Recovering log #4
-2022/10/07-12:41:43.336 5 Reusing old log /home/utkarsh/.config/google-chrome/Default/Local Storage/leveldb/000004.log 
-2022/10/07-12:41:59.800 5 Level-0 table #8: started
-2022/10/07-12:41:59.805 5 Level-0 table #8: 19578 bytes OK
-2022/10/07-12:41:59.810 5 Delete type=0 #4
+2022/10/09-12:31:34.308 3 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/10/09-12:31:34.309 3 Recovering log #276
+2022/10/09-12:31:34.311 3 Reusing old log /home/utkarsh/.config/google-chrome/Default/Local Storage/leveldb/000276.log 
+2022/10/09-13:05:28.348 d Level-0 table #280: started
+2022/10/09-13:05:28.357 d Level-0 table #280: 20193 bytes OK
+2022/10/09-13:05:28.360 d Delete type=0 #276
+2022/10/09-13:13:29.481 12 Level-0 table #282: started
+2022/10/09-13:13:29.490 12 Level-0 table #282: 25108 bytes OK
+2022/10/09-13:13:29.496 12 Delete type=0 #279
+2022/10/09-13:16:31.120 12 Level-0 table #284: started
+2022/10/09-13:16:31.129 12 Level-0 table #284: 23740 bytes OK
+2022/10/09-13:16:31.134 12 Delete type=0 #281
+2022/10/09-13:16:31.134 12 Compacting 4@0 + 1@1 files
+2022/10/09-13:16:31.176 12 Generated table #285@0: 1645 keys, 1114986 bytes
+2022/10/09-13:16:31.176 12 Compacted 4@0 + 1@1 files => 1114986 bytes
+2022/10/09-13:16:31.180 12 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/09-13:16:31.181 12 Delete type=2 #284
+2022/10/09-13:16:31.182 12 Delete type=2 #282
+2022/10/09-13:16:31.182 12 Delete type=2 #274
+2022/10/09-13:16:31.182 12 Delete type=2 #280
+2022/10/09-13:16:31.182 12 Delete type=2 #277

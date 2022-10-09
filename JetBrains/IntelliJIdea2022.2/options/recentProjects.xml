@@ -1,0 +1,48 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="/tmp/HELP.md">
+          <value>
+            <RecentProjectMetaInfo frameTitle="HELP.md" projectWorkspaceId="2Fqrm2EmjChCNInBaNvFKGLcSJr">
+              <option name="activationTimestamp" value="1665230644688" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-222.4345.14" />
+              <option name="buildTimestamp" value="1664946078863" />
+              <frame x="10" y="58" width="1346" height="690" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1665230612388" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Authenticate-Service – SecretEncryption.java" projectWorkspaceId="2FRXr7IoRJ5JA5KsIwRUbtvvMVO">
+              <option name="activationTimestamp" value="1665295567831" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-222.4345.14" />
+              <option name="buildTimestamp" value="1664946083591" />
+              <frame x="10" y="58" width="1346" height="690" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1665292838431" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/production/Proeffico-gst/GstKey-Service">
+          <value>
+            <RecentProjectMetaInfo frameTitle="GstKey-Service – GetKeyRequest.java" opened="true" projectWorkspaceId="2FF9OShbsdteqfoShA66dtI8P9P">
+              <option name="activationTimestamp" value="1665303724590" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-222.4345.14" />
+              <option name="buildTimestamp" value="1664946083591" />
+              <frame x="10" y="58" width="1346" height="690" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1665295568978" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Documents/production/Proeffico-gst/GstKey-Service" />
+  </component>
+</application>

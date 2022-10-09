@@ -1,0 +1,6 @@
+2022/10/07-13:02:02.769 a20 Creating DB /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
+2022/10/07-13:02:02.776 a20 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/07-13:11:07.952 cb5 Level-0 table #5: started
+2022/10/07-13:11:07.955 cb5 Level-0 table #5: 3294 bytes OK
+2022/10/07-13:11:07.957 cb5 Delete type=0 #3
+2022/10/07-13:11:07.958 cb5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

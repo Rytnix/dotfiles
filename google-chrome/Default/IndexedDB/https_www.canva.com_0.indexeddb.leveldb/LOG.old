@@ -1,2 +1,3 @@
-2022/10/07-12:44:06.711 681 Creating DB /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb since it was missing.
-2022/10/07-12:44:06.721 681 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/08-17:31:20.040 78da Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/08-17:31:20.041 78da Recovering log #4
+2022/10/08-17:31:20.041 78da Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000004.log 

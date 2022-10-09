@@ -1,0 +1,25 @@
+<application>
+  <component name="DimensionService">
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1300" height="187" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1300" height="187" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1300" height="187" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1300" height="187" />
+    <size key="GridCell.Tab.1.left.0.0.1366.768" width="1300" height="187" />
+    <size key="GridCell.Tab.1.center.0.0.1366.768" width="1300" height="187" />
+    <size key="GridCell.Tab.1.right.0.0.1366.768" width="1300" height="187" />
+    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="1300" height="187" />
+  </component>
+  <component name="WindowManager">
+    <frame x="10" y="58" width="1346" height="690" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="499" y="133" width="424" height="490" key="FileChooserDialogImpl" timestamp="1665230610443">
+      <screen x="0" y="38" width="1366" height="730" />
+    </state>
+    <state x="499" y="133" width="424" height="490" key="FileChooserDialogImpl/0.38.1366.730" timestamp="1665230610443" />
+    <state x="972" y="517" width="300" height="122" key="ProcessPopupWindow" timestamp="1665293074021">
+      <screen x="0" y="38" width="1366" height="730" />
+    </state>
+    <state x="972" y="517" width="300" height="122" key="ProcessPopupWindow/0.38.1366.730" timestamp="1665293074021" />
+  </component>
+</application>

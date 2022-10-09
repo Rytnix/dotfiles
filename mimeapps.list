@@ -16,4 +16,5 @@ image/gif=viewnior.desktop
 image/svg+xml=viewnior.desktop
 x-scheme-handler/http=xfce4-web-browser.desktop
 x-scheme-handler/https=xfce4-web-browser.desktop
+x-scheme-handler/postman=Postman.desktop
 

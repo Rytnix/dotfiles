@@ -1,0 +1,64 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="1" l="1665293155457" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="2" l="1665296255648" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="58" l="1665296260685" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="9" l="1665295685518" />
+    </e>
+    <e n="EditorCopy">
+      <i c="5" l="1665293421468" />
+    </e>
+    <e n="EditorEnter">
+      <i c="9" l="1665296863532" />
+    </e>
+    <e n="EditorEscape">
+      <i c="1" l="1665295668815" />
+    </e>
+    <e n="EditorPaste">
+      <i c="4" l="1665295899255" />
+    </e>
+    <e n="EditorRight">
+      <i c="2" l="1665295628627" />
+    </e>
+    <e n="ExternalSystem.ProjectRefreshAction">
+      <i c="2" l="1665295903344" />
+    </e>
+    <e n="Maven.Reimport">
+      <i c="1" l="1665293088528" />
+    </e>
+    <e n="OpenFile">
+      <i c="2" l="1665295548094" />
+    </e>
+    <e n="Run">
+      <i c="3" l="1665295695145" />
+    </e>
+    <e n="SaveAll">
+      <i c="4" l="1665296775334" />
+    </e>
+    <e n="Switcher">
+      <i c="1" l="1665296244169" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1665230482504" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="2" l="1665293383349" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1665292954694" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="1" l="1665287260997" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="4" l="1665296227857" />
+    </e>
+  </component>
+</application>

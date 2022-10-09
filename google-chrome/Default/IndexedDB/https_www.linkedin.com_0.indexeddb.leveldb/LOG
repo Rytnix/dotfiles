@@ -1,0 +1,6 @@
+2022/10/09-09:08:53.076 849b Creating DB /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb since it was missing.
+2022/10/09-09:08:53.082 849b Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/09-09:16:28.102 88d0 Level-0 table #5: started
+2022/10/09-09:16:28.105 88d0 Level-0 table #5: 6572 bytes OK
+2022/10/09-09:16:28.109 88d0 Delete type=0 #3
+2022/10/09-09:16:28.110 88d0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

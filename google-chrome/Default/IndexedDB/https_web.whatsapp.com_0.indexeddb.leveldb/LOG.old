@@ -1,0 +1,102 @@
+2022/10/09-10:15:28.114 a1e8 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/09-10:15:28.115 a1e8 Recovering log #266
+2022/10/09-10:15:28.164 a1e8 Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000266.log 
+2022/10/09-10:15:34.898 a01b Level-0 table #279: started
+2022/10/09-10:15:34.977 a01b Level-0 table #279: 1341130 bytes OK
+2022/10/09-10:15:34.980 a01b Delete type=0 #266
+2022/10/09-10:15:34.986 a01b Compacting 1@1 + 9@2 files
+2022/10/09-10:15:35.147 a01b Generated table #280@1: 41291 keys, 2281375 bytes
+2022/10/09-10:15:35.194 a01b Generated table #281@1: 2415 keys, 2154230 bytes
+2022/10/09-10:15:35.238 a01b Generated table #282@1: 2575 keys, 2148438 bytes
+2022/10/09-10:15:35.288 a01b Generated table #283@1: 3246 keys, 2156912 bytes
+2022/10/09-10:15:35.394 a01b Generated table #284@1: 22858 keys, 2228545 bytes
+2022/10/09-10:15:35.489 a01b Generated table #285@1: 23108 keys, 2225978 bytes
+2022/10/09-10:15:35.596 a01b Generated table #286@1: 46424 keys, 2180286 bytes
+2022/10/09-10:15:35.750 a01b Generated table #287@1: 100170 keys, 2251352 bytes
+2022/10/09-10:15:35.879 a01b Generated table #288@1: 79168 keys, 1819496 bytes
+2022/10/09-10:15:35.879 a01b Compacted 1@1 + 9@2 files => 19446612 bytes
+2022/10/09-10:15:35.883 a01b compacted to: files[ 0 0 9 0 0 0 0 ]
+2022/10/09-10:15:38.013 a1ea Level-0 table #290: started
+2022/10/09-10:15:38.069 a1ea Level-0 table #290: 1237297 bytes OK
+2022/10/09-10:15:38.076 a1ea Delete type=0 #278
+2022/10/09-10:15:38.076 a1ea Delete type=2 #271
+2022/10/09-10:15:38.076 a1ea Delete type=2 #270
+2022/10/09-10:15:38.076 a1ea Delete type=2 #269
+2022/10/09-10:15:38.076 a1ea Delete type=2 #279
+2022/10/09-10:15:38.076 a1ea Delete type=2 #275
+2022/10/09-10:15:38.076 a1ea Delete type=2 #272
+2022/10/09-10:15:38.077 a1ea Delete type=2 #268
+2022/10/09-10:15:38.078 a1ea Delete type=2 #274
+2022/10/09-10:15:38.078 a1ea Delete type=2 #276
+2022/10/09-10:15:38.078 a1ea Delete type=2 #273
+2022/10/09-10:15:38.092 a01b Compacting 1@1 + 6@2 files
+2022/10/09-10:15:38.237 a01b Generated table #291@1: 42924 keys, 2288014 bytes
+2022/10/09-10:15:38.288 a01b Generated table #292@1: 2423 keys, 2155561 bytes
+2022/10/09-10:15:38.335 a01b Generated table #293@1: 2511 keys, 2149143 bytes
+2022/10/09-10:15:38.407 a01b Generated table #294@1: 3273 keys, 2158841 bytes
+2022/10/09-10:15:38.542 a01b Generated table #295@1: 20537 keys, 2213125 bytes
+2022/10/09-10:15:38.686 a01b Generated table #296@1: 26263 keys, 2249926 bytes
+2022/10/09-10:15:38.703 a01b Generated table #297@1: 974 keys, 330047 bytes
+2022/10/09-10:15:38.703 a01b Compacted 1@1 + 6@2 files => 13544657 bytes
+2022/10/09-10:15:38.705 a01b compacted to: files[ 0 0 10 0 0 0 0 ]
+2022/10/09-10:15:47.532 a223 Level-0 table #299: started
+2022/10/09-10:15:47.579 a223 Level-0 table #299: 1248731 bytes OK
+2022/10/09-10:15:47.585 a223 Delete type=2 #290
+2022/10/09-10:15:47.585 a223 Delete type=2 #283
+2022/10/09-10:15:47.585 a223 Delete type=2 #284
+2022/10/09-10:15:47.585 a223 Delete type=2 #282
+2022/10/09-10:15:47.585 a223 Delete type=2 #280
+2022/10/09-10:15:47.585 a223 Delete type=2 #285
+2022/10/09-10:15:47.585 a223 Delete type=0 #289
+2022/10/09-10:15:47.585 a223 Delete type=2 #281
+2022/10/09-10:15:47.613 a1e8 Compacting 1@1 + 10@2 files
+2022/10/09-10:15:47.801 a1e8 Generated table #300@1: 43560 keys, 2291692 bytes
+2022/10/09-10:15:47.842 a1e8 Generated table #301@1: 3044 keys, 2156566 bytes
+2022/10/09-10:15:47.880 a1e8 Generated table #302@1: 2450 keys, 2148997 bytes
+2022/10/09-10:15:47.925 a1e8 Generated table #303@1: 3419 keys, 2161223 bytes
+2022/10/09-10:15:48.014 a1e8 Generated table #304@1: 19682 keys, 2207918 bytes
+2022/10/09-10:15:48.149 a1e8 Generated table #305@1: 27210 keys, 2257982 bytes
+2022/10/09-10:15:48.236 a1e8 Generated table #306@1: 26803 keys, 2153589 bytes
+2022/10/09-10:15:48.394 a1e8 Generated table #307@1: 100317 keys, 2251764 bytes
+2022/10/09-10:15:48.610 a1e8 Generated table #308@1: 100335 keys, 2251940 bytes
+2022/10/09-10:15:48.616 a1e8 Generated table #309@1: 1828 keys, 84400 bytes
+2022/10/09-10:15:48.616 a1e8 Compacted 1@1 + 10@2 files => 19966071 bytes
+2022/10/09-10:15:48.620 a1e8 compacted to: files[ 0 0 10 0 0 0 0 ]
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #295
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #292
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #286
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #291
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #296
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #297
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #294
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #287
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #288
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #299
+2022/10/09-10:15:48.620 a1e8 Delete type=2 #293
+2022/10/09-10:20:25.301 a01b Level-0 table #311: started
+2022/10/09-10:20:25.347 a01b Level-0 table #311: 1309639 bytes OK
+2022/10/09-10:20:25.351 a01b Delete type=0 #298
+2022/10/09-10:20:27.518 a1e8 Compacting 1@1 + 10@2 files
+2022/10/09-10:20:27.644 a1e8 Generated table #312@1: 41211 keys, 2298368 bytes
+2022/10/09-10:20:27.715 a1e8 Generated table #313@1: 6471 keys, 2161261 bytes
+2022/10/09-10:20:27.754 a1e8 Generated table #314@1: 2379 keys, 2149694 bytes
+2022/10/09-10:20:27.796 a1e8 Generated table #315@1: 3479 keys, 2162105 bytes
+2022/10/09-10:20:27.877 a1e8 Generated table #316@1: 18328 keys, 2202155 bytes
+2022/10/09-10:20:27.988 a1e8 Generated table #317@1: 27708 keys, 2261019 bytes
+2022/10/09-10:20:28.054 a1e8 Generated table #318@1: 20831 keys, 2147792 bytes
+2022/10/09-10:20:28.192 a1e8 Generated table #319@1: 101445 keys, 2253883 bytes
+2022/10/09-10:20:28.303 a1e8 Generated table #320@1: 99841 keys, 2250245 bytes
+2022/10/09-10:20:28.316 a1e8 Generated table #321@1: 10464 keys, 274228 bytes
+2022/10/09-10:20:28.316 a1e8 Compacted 1@1 + 10@2 files => 20160750 bytes
+2022/10/09-10:20:28.319 a1e8 compacted to: files[ 0 0 10 0 0 0 0 ]
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #304
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #307
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #301
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #300
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #306
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #303
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #305
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #302
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #311
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #308
+2022/10/09-10:20:28.319 a1e8 Delete type=2 #309

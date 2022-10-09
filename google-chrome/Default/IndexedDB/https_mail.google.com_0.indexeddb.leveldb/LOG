@@ -1,6 +1,15 @@
-2022/10/07-13:02:02.769 a20 Creating DB /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
-2022/10/07-13:02:02.776 a20 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/10/07-13:11:07.952 cb5 Level-0 table #5: started
-2022/10/07-13:11:07.955 cb5 Level-0 table #5: 3294 bytes OK
-2022/10/07-13:11:07.957 cb5 Delete type=0 #3
-2022/10/07-13:11:07.958 cb5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/10/08-17:30:20.720 7621 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/08-17:30:20.720 7621 Recovering log #4
+2022/10/08-17:30:20.720 7621 Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2022/10/09-09:45:48.951 971c Level-0 table #8: started
+2022/10/09-09:45:48.988 971c Level-0 table #8: 863517 bytes OK
+2022/10/09-09:45:48.994 971c Delete type=0 #4
+2022/10/09-09:45:48.995 971c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/10/09-09:45:48.995 971c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 1221 : 1
+2022/10/09-09:45:48.995 971c Compacting 1@1 + 1@2 files
+2022/10/09-09:45:49.009 971c Generated table #9@1: 105 keys, 105934 bytes
+2022/10/09-09:45:49.009 971c Compacted 1@1 + 1@2 files => 105934 bytes
+2022/10/09-09:45:49.012 971c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/10/09-09:45:49.012 971c Delete type=2 #8
+2022/10/09-09:45:49.012 971c Delete type=2 #5
+2022/10/09-09:45:49.013 98a1 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 1221 : 1 .. (end); will stop at (end)
