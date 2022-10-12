@@ -3,6 +3,7 @@
     <jdk version="2">
       <name value="11" />
       <type value="JavaSDK" />
+      <version value="version 11.0.16" />
       <homePath value="/usr/lib/jvm/java-11-openjdk" />
       <roots>
         <annotationsPath>

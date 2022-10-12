@@ -518,7 +518,7 @@
         <command>~/.config/openbox/rofi/bin/music</command>
       </action>
     </keybind>
-     <keybind key="A-f">
+    <keybind key="A-f">
       <action name="Execute">
         <command>polybar-msg cmd toggle</command>
       </action>
@@ -881,7 +881,7 @@
   </mouse>
   <!-- ################################ Menu Settings ################################ -->
   <menu>
-    <file>menu-glyphs.xml</file>
+    <file>menu-icons.xml</file>
     <hideDelay>400</hideDelay>
     <middle>no</middle>
     <submenuShowDelay>100</submenuShowDelay>

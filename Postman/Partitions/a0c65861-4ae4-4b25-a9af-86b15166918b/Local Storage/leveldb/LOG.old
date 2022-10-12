@@ -1,2 +1,3 @@
-2022/10/09-10:42:27.512 a87a Creating DB /home/utkarsh/.config/Postman/Partitions/a0c65861-4ae4-4b25-a9af-86b15166918b/Local Storage/leveldb since it was missing.
-2022/10/09-10:42:27.525 a87a Reusing MANIFEST /home/utkarsh/.config/Postman/Partitions/a0c65861-4ae4-4b25-a9af-86b15166918b/Local Storage/leveldb/MANIFEST-000001
+2022/10/11-16:01:14.878 daef Reusing MANIFEST /home/utkarsh/.config/Postman/Partitions/a0c65861-4ae4-4b25-a9af-86b15166918b/Local Storage/leveldb/MANIFEST-000001
+2022/10/11-16:01:14.879 daef Recovering log #3
+2022/10/11-16:01:14.879 daef Reusing old log /home/utkarsh/.config/Postman/Partitions/a0c65861-4ae4-4b25-a9af-86b15166918b/Local Storage/leveldb/000003.log 

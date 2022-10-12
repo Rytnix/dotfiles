@@ -1,3 +1,6 @@
-2022/10/09-21:18:01.407 5 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2022/10/09-21:18:01.409 5 Recovering log #292
-2022/10/09-21:18:01.409 5 Reusing old log /home/utkarsh/.config/google-chrome/Default/Local Storage/leveldb/000292.log 
+2022/10/12-23:45:30.614 3 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/10/12-23:45:30.616 3 Recovering log #376
+2022/10/12-23:45:30.617 3 Reusing old log /home/utkarsh/.config/google-chrome/Default/Local Storage/leveldb/000376.log 
+2022/10/13-00:11:33.830 14 Level-0 table #381: started
+2022/10/13-00:11:33.839 14 Level-0 table #381: 29900 bytes OK
+2022/10/13-00:11:33.844 14 Delete type=0 #376

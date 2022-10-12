@@ -17,35 +17,55 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="2Fw1sOxhuCCdhJOutuOwslVllwU">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="14.0" />
   </component>
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
+    "InstalledPluginsSearchHistory": "/tag:\"Editor Color Schemes\"",
+    "LayoutCode.optimizeImports": "false",
+    "LayoutCode.rearrangeEntriesXML": "false",
+    "LiveContextsPanel[0]": "0.15885623",
+    "MarketplacePluginsSearchHistory": "/tag:\"Editor Color Schemes\"\nmono\nmon\nmonio\n/tag:theme",
     "NonModalCommitCustomization.IsApplied": "true",
+    "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.se.text.search": "true",
-    "appcds.runOnSecondStart": "IU-222.4345.14-3b7b5d02c68c63f50357f6059637f217a371aeb4a5773d598fb42d0aaece06b8",
+    "appcds.runOnSecondStart": "IU-222.4345.14-c2bd6a24e0457c4af9651120e144d073bc4ed64768d20c507a1651abe1712c1c",
     "ask.about.ctrl.y.shortcut.v2": "true",
     "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "bundled.plugins.list.saved.version": "IU-222.4345.14",
+    "db.last.update.timestamp": "1665464151401",
+    "decompiler.legal.notice.accepted": "true",
     "defaultJdkConfigured": "true",
     "defaultpackageserviceconfig.fulltext": "https://package-search.services.jetbrains.com/api/search/idea/fulltext",
     "defaultpackageserviceconfig.suggest": "https://package-search.services.jetbrains.com/api/search/idea/suggest",
     "defaultpackageserviceconfig.updated.ts": "1665230659424",
     "eclipse.projects.detected": "",
     "evlsprt3.222": "24",
-    "file.gist.reindex.count": "45",
+    "file.gist.reindex.count": "130",
     "fileTypeChangedCounter": "1",
-    "fontSizeToResetConsole": "12.0",
-    "fontSizeToResetEditor": "12.0",
+    "fontSizeToResetConsole": "15.0",
+    "fontSizeToResetEditor": "15.0",
+    "got.it.tooltip.database.schema.control.got.it": "1",
+    "got.it.tooltip.reader.mode.got.it": "1",
     "got.it.tooltip.terminal.smart_command_execution": "1",
     "gotit.previous.run": "IU-222.4345.14",
     "ide.memory.adjusted": "true",
+    "ideavim.statistics.timestamp": "1665552613283",
     "installed.kotlin.plugin.version": "222-1.7.10-release-334-IJ4345.14",
     "last_opened_file_path": "/home/utkarsh/Documents/production/Proeffico-gst/GstKey-Service/HELP.md",
-    "previousColorScheme": "_@user_Darcula",
+    "previousColorScheme": "_@user_Monokai Pro",
     "registry.to.advanced.settings.migration.build": "IU-222.4345.14",
     "tasks.pass.word.conversion.enforced": "true",
     "ts.lib.d.ts.version": "4.7.4"
@@ -72,6 +92,7 @@
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
       <command-history-file filename="GstKey-Service-history" project-path="$USER_HOME$/Documents/production/Proeffico-gst/GstKey-Service" last-access-time="1665295968002" />
+      <command-history-file filename="gspintegration-history" project-path="$USER_HOME$/Library/gspintegration" last-access-time="1665582382728" />
     </command-history-files>
   </component>
 </application>

@@ -1,2 +1,45 @@
-2022/10/07-11:54:37.761 14d0 Creating DB /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb since it was missing.
-2022/10/07-11:54:37.767 14d0 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/11-10:29:27.339 2aba Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/11-10:29:27.340 2aba Recovering log #3
+2022/10/11-10:29:27.340 2aba Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000003.log 
+2022/10/11-13:26:59.331 78bf Level-0 table #5: started
+2022/10/11-13:26:59.361 78bf Level-0 table #5: 1028922 bytes OK
+2022/10/11-13:26:59.366 78bf Delete type=0 #3
+2022/10/11-15:29:57.279 cb8d Level-0 table #7: started
+2022/10/11-15:29:57.300 cb8d Level-0 table #7: 961427 bytes OK
+2022/10/11-15:29:57.304 cb8d Delete type=0 #4
+2022/10/11-15:36:19.941 ccc7 Compacting 1@1 + 1@2 files
+2022/10/11-15:36:19.972 ccc7 Generated table #8@1: 740 keys, 33487 bytes
+2022/10/11-15:36:19.972 ccc7 Compacted 1@1 + 1@2 files => 33487 bytes
+2022/10/11-15:36:19.975 ccc7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/10/11-15:36:19.975 ccc7 Delete type=2 #7
+2022/10/11-15:36:19.975 ccc7 Delete type=2 #5
+2022/10/11-17:28:52.194 10553 Level-0 table #10: started
+2022/10/11-17:28:52.216 10553 Level-0 table #10: 877140 bytes OK
+2022/10/11-17:28:52.218 10553 Delete type=0 #6
+2022/10/11-17:28:52.256 10553 Compacting 1@1 + 1@2 files
+2022/10/11-17:28:52.267 10553 Generated table #11@1: 919 keys, 26295 bytes
+2022/10/11-17:28:52.267 10553 Compacted 1@1 + 1@2 files => 26295 bytes
+2022/10/11-17:28:52.269 10553 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/10/11-19:15:46.180 133ba Level-0 table #13: started
+2022/10/11-19:15:46.209 133ba Level-0 table #13: 925503 bytes OK
+2022/10/11-19:15:46.215 133ba Delete type=2 #10
+2022/10/11-19:15:46.215 133ba Delete type=2 #8
+2022/10/11-19:15:46.215 133ba Delete type=0 #9
+2022/10/11-19:26:21.788 14234 Compacting 1@1 + 1@2 files
+2022/10/11-19:26:21.802 14234 Generated table #14@1: 819 keys, 26188 bytes
+2022/10/11-19:26:21.802 14234 Compacted 1@1 + 1@2 files => 26188 bytes
+2022/10/11-19:26:21.804 14234 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/10/11-19:26:21.805 14234 Delete type=2 #13
+2022/10/11-19:26:21.805 14234 Delete type=2 #11
+2022/10/11-21:44:56.603 170aa Level-0 table #16: started
+2022/10/11-21:44:56.628 170aa Level-0 table #16: 519427 bytes OK
+2022/10/11-21:44:56.632 170aa Delete type=0 #12
+2022/10/11-21:44:56.634 170aa Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/10/11-21:44:56.634 170aa Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x1f\x01\x0d\x001\x006\x007\x000\x003\x000\x007\x008\x007\x009\x005\x006\x003\x00\x04\x02\x01\x16\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00g\x00u\x00i\x00d\x00e\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\xc0P@' @ 21669 : 0
+2022/10/11-21:44:56.634 170aa Compacting 1@1 + 1@2 files
+2022/10/11-21:44:56.641 170aa Generated table #17@1: 765 keys, 21168 bytes
+2022/10/11-21:44:56.641 170aa Compacted 1@1 + 1@2 files => 21168 bytes
+2022/10/11-21:44:56.644 170aa compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/10/11-21:44:56.644 170aa Delete type=2 #14
+2022/10/11-21:44:56.644 170aa Delete type=2 #16
+2022/10/11-21:44:56.644 170aa Manual compaction at level-1 from '\x00\x03\x01\x1f\x01\x0d\x001\x006\x007\x000\x003\x000\x007\x008\x007\x009\x005\x006\x003\x00\x04\x02\x01\x16\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00g\x00u\x00i\x00d\x00e\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\xc0P@' @ 21669 : 0 .. (end); will stop at (end)

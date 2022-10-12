@@ -1,2 +1,3 @@
-2022/10/07-11:53:37.741 14f3 Creating DB /home/utkarsh/.config/google-chrome/Default/Extension Scripts since it was missing.
-2022/10/07-11:53:37.752 14f3 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Extension Scripts/MANIFEST-000001
+2022/10/11-15:06:32.413 ba13 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Extension Scripts/MANIFEST-000001
+2022/10/11-15:06:32.413 ba13 Recovering log #3
+2022/10/11-15:06:32.414 ba13 Reusing old log /home/utkarsh/.config/google-chrome/Default/Extension Scripts/000003.log 

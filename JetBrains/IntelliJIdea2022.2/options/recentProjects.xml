@@ -17,32 +17,33 @@
         </entry>
         <entry key="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service">
           <value>
-            <RecentProjectMetaInfo frameTitle="Authenticate-Service – SecretEncryption.java" projectWorkspaceId="2FRXr7IoRJ5JA5KsIwRUbtvvMVO">
-              <option name="activationTimestamp" value="1665295567831" />
+            <RecentProjectMetaInfo frameTitle="Authenticate-Service – OtpRequestService.java" projectWorkspaceId="2FRXr7IoRJ5JA5KsIwRUbtvvMVO">
+              <option name="activationTimestamp" value="1665582378447" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-222.4345.14" />
-              <option name="buildTimestamp" value="1664946083591" />
-              <frame x="10" y="58" width="1346" height="690" />
+              <option name="buildTimestamp" value="1664946103501" />
+              <frame x="0" y="38" width="1366" height="730" extendedState="6" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1665292838431" />
+              <option name="projectOpenTimestamp" value="1665491054483" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Documents/production/Proeffico-gst/GstKey-Service">
+        <entry key="$USER_HOME$/Library/gspintegration">
           <value>
-            <RecentProjectMetaInfo frameTitle="GstKey-Service – GetKeyRequest.java" opened="true" projectWorkspaceId="2FF9OShbsdteqfoShA66dtI8P9P">
-              <option name="activationTimestamp" value="1665303724590" />
+            <RecentProjectMetaInfo frameTitle="gspintegration – application.yml" opened="true" projectWorkspaceId="2Fw1sOxhuCCdhJOutuOwslVllwU">
+              <option name="activationTimestamp" value="1665586190045" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-222.4345.14" />
-              <option name="buildTimestamp" value="1664946083591" />
-              <frame x="10" y="58" width="1346" height="690" />
+              <option name="buildTimestamp" value="1664946076070" />
+              <frame x="0" y="38" width="1366" height="730" extendedState="6" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1665295568978" />
+              <option name="projectOpenTimestamp" value="1665582379848" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Documents/production/Proeffico-gst/GstKey-Service" />
+    <option name="lastOpenedProject" value="$USER_HOME$/Library/gspintegration" />
+    <option name="lastProjectLocation" value="$USER_HOME$/Library" />
   </component>
 </application>
