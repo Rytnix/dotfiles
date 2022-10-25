@@ -4,13 +4,15 @@
             "items": {
                 "4": "help nv",
                 "5": "set multiple-cursors = true",
-                "14": "250",
                 "31": "200",
                 "42": "wq",
                 "44": "q",
-                "45": "w"
+                "46": "w TravellingSalesmanBitmanipulation",
+                "48": "w TravellingSalesmanBitmanipulation.java",
+                "60": "w",
+                "61": "250"
             },
-            "num": 45
+            "num": 61
         },
         "2": {
             "items": {

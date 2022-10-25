@@ -1,3 +1,6 @@
-2022/10/12-19:16:51.130 5 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2022/10/12-19:16:51.131 5 Recovering log #59
-2022/10/12-19:16:51.132 5 Reusing old log /home/utkarsh/.config/google-chrome/Default/Session Storage/000059.log 
+2022/10/22-19:34:57.871 3 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2022/10/22-19:34:57.874 3 Recovering log #115
+2022/10/22-19:34:57.875 3 Reusing old log /home/utkarsh/.config/google-chrome/Default/Session Storage/000115.log 
+2022/10/22-19:36:33.144 3 Level-0 table #119: started
+2022/10/22-19:36:33.150 3 Level-0 table #119: 46934 bytes OK
+2022/10/22-19:36:33.154 3 Delete type=0 #115

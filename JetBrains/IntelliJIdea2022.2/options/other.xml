@@ -22,8 +22,50 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="2G4NI8knKA9qZYZsWL44QGZGkQo">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GAfKrFvz0mK06NsYc1XdH0OTgs">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GAvOq4DPT7l5BW6UIUa3e4KAo6">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GCum0QPOFncONM3pBG539ISJED">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GCutegzoRKWtMQ1Xg4qqO8EW7U">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2GINABbfgTGly2Z9nkR9F851fWU">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
+  </component>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Amazon Corretto 18.0.2" />
+        <option name="installDir" value="$USER_HOME$/.jdks/corretto-18.0.2" />
+        <option name="javaHomeDir" value="$USER_HOME$/.jdks/corretto-18.0.2" />
+        <option name="sha256" value="6e1ece082dc471ac5e126646794cd227a13ca3e536208775182c17086063e121" />
+        <option name="url" value="https://corretto.aws/downloads/latest/amazon-corretto-18-x64-linux-jdk.tar.gz" />
+        <option name="versionText" value="18.0.2" />
+      </installed-jdk>
+    </option>
   </component>
   <component name="NotRoamableUiSettings">
     <option name="fontScale" value="1.0" />
@@ -33,27 +75,34 @@
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
     "InstalledPluginsSearchHistory": "/tag:\"Editor Color Schemes\"",
+    "JUnitSupport.hidePassedTests": "false",
     "LayoutCode.optimizeImports": "false",
+    "LayoutCode.processChangedText": "false",
+    "LayoutCode.rearrangeEntriesJava": "false",
     "LayoutCode.rearrangeEntriesXML": "false",
     "LiveContextsPanel[0]": "0.15885623",
     "MarketplacePluginsSearchHistory": "/tag:\"Editor Color Schemes\"\nmono\nmon\nmonio\n/tag:theme",
     "NonModalCommitCustomization.IsApplied": "true",
     "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.se.text.search": "true",
-    "appcds.runOnSecondStart": "IU-222.4345.14-c2bd6a24e0457c4af9651120e144d073bc4ed64768d20c507a1651abe1712c1c",
+    "appcds.runOnSecondStart": "IU-222.4345.14-4eebf78032723a9168550d4c1d931f40b31f5c4b578d84cf2eea26aa2df15cbb",
     "ask.about.ctrl.y.shortcut.v2": "true",
     "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "bundled.plugins.list.saved.version": "IU-222.4345.14",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
     "db.last.update.timestamp": "1665464151401",
+    "debugger.smart.chooser.counter": "3",
     "decompiler.legal.notice.accepted": "true",
     "defaultJdkConfigured": "true",
     "defaultpackageserviceconfig.fulltext": "https://package-search.services.jetbrains.com/api/search/idea/fulltext",
     "defaultpackageserviceconfig.suggest": "https://package-search.services.jetbrains.com/api/search/idea/suggest",
-    "defaultpackageserviceconfig.updated.ts": "1665230659424",
+    "defaultpackageserviceconfig.updated.ts": "1665905109611",
     "eclipse.projects.detected": "",
     "evlsprt3.222": "24",
-    "file.gist.reindex.count": "130",
+    "file.gist.reindex.count": "166",
     "fileTypeChangedCounter": "1",
     "fontSizeToResetConsole": "15.0",
     "fontSizeToResetEditor": "15.0",
@@ -62,16 +111,19 @@
     "got.it.tooltip.terminal.smart_command_execution": "1",
     "gotit.previous.run": "IU-222.4345.14",
     "ide.memory.adjusted": "true",
-    "ideavim.statistics.timestamp": "1665552613283",
+    "ideavim.statistics.timestamp": "1666071268348",
     "installed.kotlin.plugin.version": "222-1.7.10-release-334-IJ4345.14",
+    "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "/home/utkarsh/Documents/production/Proeffico-gst/GstKey-Service/HELP.md",
     "previousColorScheme": "_@user_Monokai Pro",
+    "project.wizard.group": "SpringInitializr",
     "registry.to.advanced.settings.migration.build": "IU-222.4345.14",
     "tasks.pass.word.conversion.enforced": "true",
     "ts.lib.d.ts.version": "4.7.4"
   },
   "keyToStringList": {
     "file.chooser.recent.files": [
+      "/home/utkarsh/Library/Java",
       "/home/utkarsh/Documents/production/Proeffico-gst/GstKey-Service/pom.xml",
       "/home/utkarsh/Documents/production/Proeffico-gst/GstKey-Service/HELP.md"
     ],
@@ -92,7 +144,8 @@
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
       <command-history-file filename="GstKey-Service-history" project-path="$USER_HOME$/Documents/production/Proeffico-gst/GstKey-Service" last-access-time="1665295968002" />
-      <command-history-file filename="gspintegration-history" project-path="$USER_HOME$/Library/gspintegration" last-access-time="1665582382728" />
+      <command-history-file filename="Java-history" project-path="$USER_HOME$/Library/Java" last-access-time="1666071255739" />
+      <command-history-file filename="others-history" project-path="$USER_HOME$/Library/Java/src/main/java/com/thealgorithms/others" last-access-time="1665850942200" />
     </command-history-files>
   </component>
 </application>

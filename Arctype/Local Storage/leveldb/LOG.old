@@ -1,0 +1,6 @@
+2022/10/15-11:07:18.220 15be Reusing MANIFEST /home/utkarsh/.config/Arctype/Local Storage/leveldb/MANIFEST-000001
+2022/10/15-11:07:18.240 15be Recovering log #67
+2022/10/15-11:07:18.249 15be Reusing old log /home/utkarsh/.config/Arctype/Local Storage/leveldb/000067.log 
+2022/10/15-11:17:36.826 1da1 Level-0 table #71: started
+2022/10/15-11:17:37.181 1da1 Level-0 table #71: 27924 bytes OK
+2022/10/15-11:17:37.183 1da1 Delete type=0 #67

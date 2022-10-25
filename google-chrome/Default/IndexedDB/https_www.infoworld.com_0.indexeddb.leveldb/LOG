@@ -1,0 +1,6 @@
+2022/10/19-23:12:19.223 318b Creating DB /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.infoworld.com_0.indexeddb.leveldb since it was missing.
+2022/10/19-23:12:19.229 318b Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.infoworld.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/19-23:13:08.452 3189 Level-0 table #5: started
+2022/10/19-23:13:08.469 3189 Level-0 table #5: 1485936 bytes OK
+2022/10/19-23:13:08.472 3189 Delete type=0 #3
+2022/10/19-23:13:08.473 3189 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

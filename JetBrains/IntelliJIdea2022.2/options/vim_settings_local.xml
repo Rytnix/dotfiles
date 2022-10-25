@@ -1,0 +1,202 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry encoding="base64">amFja3Nvbg==</entry>
+      </history-search>
+      <history-cmd>
+        <entry encoding="base64" />
+        <entry encoding="base64">d3E=</entry>
+        <entry encoding="base64">cXc=</entry>
+        <entry encoding="base64">dw==</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service/src/main/java/com/proeffico/authenticate/otpRequest/repository/OtpResponseRepository.java" timestamp="1666078385091">
+        <mark key="[" line="7" column="47" />
+        <mark key="]" line="7" column="55" />
+        <mark key="." line="7" column="54" />
+        <mark key="^" line="7" column="55" />
+      </file>
+      <file name="$USER_HOME$/Library/Java/src/main/java/com/thealgorithms/dynamicprogramming/TravellingSalesmanBitManipulation.java" timestamp="1665911361135">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/Library/Java/pom.xml" timestamp="1665907623053">
+        <mark key="[" line="13" column="33" />
+        <mark key="]" line="13" column="33" />
+        <mark key="^" line="13" column="33" />
+        <mark key="." line="13" column="32" />
+      </file>
+      <file name="$USER_HOME$/Library/gspintegration/src/main/java/com/proeffico/gspIntegration/GetkeyApplication.java" timestamp="1666079786241">
+        <mark key="[" line="10" column="19" />
+      </file>
+      <file name="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service/src/main/java/com/proeffico/authenticate/otpRequest/service/OtpFeignService.java" timestamp="1666100410022">
+        <mark key="[" line="9" column="22" />
+        <mark key="]" line="9" column="26" />
+        <mark key="." line="9" column="25" />
+        <mark key="^" line="9" column="26" />
+      </file>
+      <file name="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service/src/main/java/com/proeffico/authenticate/AuthenticateApplication.java" timestamp="1666086335937">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="^" line="9" column="19" />
+        <mark key="." line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/Library/Service-Registry/src/main/resources/application.yml" timestamp="1666072231922">
+        <mark key="[" line="6" column="12" />
+        <mark key="]" line="7" column="2" />
+        <mark key="^" line="7" column="2" />
+        <mark key="." line="7" column="1" />
+      </file>
+      <file name="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service/src/main/resources/application.properties" timestamp="1666086461946">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="16" />
+        <mark key="." line="9" column="15" />
+        <mark key="^" line="9" column="16" />
+      </file>
+      <file name="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service/src/main/java/com/proeffico/authenticate/otpRequest/service/OtpRequestService.java" timestamp="1666071390341">
+        <mark key="[" line="40" column="44" />
+        <mark key="]" line="40" column="44" />
+        <mark key="^" line="40" column="44" />
+        <mark key="." line="40" column="43" />
+      </file>
+      <file name="$USER_HOME$/Library/Java/src/test/java/com/thealgorithms/others/CountFriendsPairingTest.java" timestamp="1665905646945">
+        <mark key="[" line="23" column="13" />
+        <mark key="]" line="23" column="15" />
+        <mark key="^" line="23" column="15" />
+        <mark key="." line="23" column="14" />
+      </file>
+      <file name="$USER_HOME$/Library/Service-Registry/src/main/java/com/proeffico/serviceregistry/ServiceRegistryApplication.java" timestamp="1666072045541">
+        <mark key="[" line="6" column="22" />
+        <mark key="]" line="7" column="19" />
+        <mark key="^" line="7" column="19" />
+        <mark key="." line="7" column="18" />
+      </file>
+      <file name="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service/src/main/resources/application.yml" timestamp="1666086458202">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Library/Java/src/test/java/com/thealgorithms/others/TravellingSalesmanBitManipulationTests.java" timestamp="1665910865831">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="0" />
+        <mark key="^" line="36" column="24" />
+        <mark key="." line="37" column="0" />
+      </file>
+      <file name="$USER_HOME$/Library/gspintegration/pom.xml" timestamp="1666079636532">
+        <mark key="[" line="47" column="21" />
+      </file>
+      <file name="$USER_HOME$/Library/Java/src/test/java/com/thealgorithms/others/UniquePathsTests.java" timestamp="1665905899361">
+        <mark key="'" line="49" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="48" column="0" />
+        <mark key="." line="49" column="0" />
+      </file>
+      <file name="$USER_HOME$/Library/gspintegration/src/main/resources/application.yml" timestamp="1666080266678">
+        <mark key="[" line="4" column="7" />
+        <mark key="]" line="18" column="6" />
+        <mark key="." line="18" column="5" />
+        <mark key="^" line="18" column="6" />
+      </file>
+      <file name="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service/pom.xml" timestamp="1666086437763" />
+      <file name="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service/src/main/java/com/proeffico/authenticate/otpRequest/service/GetKeyDetailsFeignService.java" timestamp="1666086950002">
+        <mark key="[" line="8" column="38" />
+        <mark key="]" line="10" column="27" />
+        <mark key="." line="10" column="26" />
+        <mark key="^" line="10" column="27" />
+      </file>
+      <file name="/fragment.java" timestamp="1665905170154">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Library/Java/DIRECTORY.md" timestamp="1665910877398">
+        <mark key="[" line="221" column="132" />
+        <mark key="]" line="221" column="150" />
+        <mark key="." line="221" column="149" />
+        <mark key="^" line="221" column="150" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="27" column="40" filename="$USER_HOME$/Library/gspintegration/src/main/java/com/proeffico/gspIntegration/controller/KeyController.java" />
+      <jump line="78" column="25" filename="$USER_HOME$/Library/gspintegration/src/main/java/com/proeffico/gspIntegration/responseService/GetKeyResponseService.java" />
+      <jump line="55" column="88" filename="$USER_HOME$/Library/Java/src/main/java/com/thealgorithms/others/TravellingSalesmanBitmanipulation.java" />
+      <jump line="22" column="0" filename="$USER_HOME$/Library/Java/src/main/java/com/thealgorithms/others/TravellingSalesmanBitmanipulation.java" />
+      <jump line="70" column="0" filename="$USER_HOME$/Library/Java/src/main/java/com/thealgorithms/others/TravellingSalesmanBitmanipulation.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/Library/Java/src/main/java/com/thealgorithms/others/TravellingSalesmanBitmanipulation.java" />
+      <jump line="65" column="127" filename="$USER_HOME$/Library/test/src/TravellingSalesmanBitmanipulation.java" />
+      <jump line="31" column="0" filename="$USER_HOME$/Library/test/src/TravellingSalesmanBitmanipulation.java" />
+      <jump line="3" column="0" filename="$USER_HOME$/Library/test/src/TravellingSalesmanBitmanipulation.java" />
+      <jump line="9" column="0" filename="$USER_HOME$/Library/Java/src/main/java/com/thealgorithms/others/KochSnowflake.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/Library/Java/src/test/java/com/thealgorithms/others/UniquePathsTests.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/Library/Java/src/test/java/com/thealgorithms/others/UniquePathsTests.java" />
+      <jump line="48" column="0" filename="$USER_HOME$/Library/Java/src/test/java/com/thealgorithms/others/UniquePathsTests.java" />
+      <jump line="49" column="0" filename="$USER_HOME$/Library/Java/src/test/java/com/thealgorithms/others/UniquePathsTests.java" />
+      <jump line="4" column="6" filename="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service/src/main/resources/application.yml" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service/src/main/resources/application.yml" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">YXV0aGVudGljYXRl</text>
+      </register>
+      <register name="+" type="4">
+        <text encoding="base64">cGFja2FnZSBjb20udGhlYWxnb3JpdGhtcy5vdGhlcnM7CgppbXBvcnQgc3RhdGljIG9yZy5qdW5pdC5qdXBpdGVyLmFwaS5Bc3NlcnRpb25zLio7CgppbXBvcnQgY29tLnRoZWFsZ29yaXRobXMuZHluYW1pY3Byb2dyYW1taW5nLlVuaXF1ZVBhdGhzOwppbXBvcnQgb3JnLmp1bml0Lmp1cGl0ZXIuYXBpLlRlc3Q7CgpwdWJsaWMgY2xhc3MgVW5pcXVlUGF0aHNUZXN0cyB7CgogICAgQFRlc3QKICAgIHZvaWQgdGVzdEZvck9uZUVsZW1lbnQoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShVbmlxdWVQYXRocy51bmlxdWVQYXRocygzLCA3LCAyOCkpOwogICAgfQoKICAgIEBUZXN0CiAgICB2b2lkIHRlc3RGb3JUd29FbGVtZW50cygpIHsKICAgICAgICBhc3NlcnRUcnVlKFVuaXF1ZVBhdGhzLnVuaXF1ZVBhdGhzKDMsIDIsIDMpKTsKICAgIH0KCiAgICBAVGVzdAogICAgdm9pZCB0ZXN0Rm9yVGhyZWVFbGVtZW50cygpIHsKICAgICAgICBhc3NlcnRUcnVlKFVuaXF1ZVBhdGhzLnVuaXF1ZVBhdGhzKDMsIDMsIDYpKTsKICAgIH0KCiAgICBAVGVzdAogICAgdm9pZCB0ZXN0Rm9yRm91ckVsZW1lbnRzKCkgewogICAgICAgIGFzc2VydFRydWUoVW5pcXVlUGF0aHMudW5pcXVlUGF0aHMoNCwgNiwgNTYpKTsKICAgIH0KCiAgICBAVGVzdAogICAgdm9pZCB0ZXN0Rm9yRml2ZUVsZW1lbnRzKCkgewogICAgICAgIGFzc2VydFRydWUoVW5pcXVlUGF0aHMudW5pcXVlUGF0aHMyKDMsIDUsIDE1KSk7CiAgICB9CgogICAgQFRlc3QKICAgIHZvaWQgdGVzdEZvclNpeEVsZW1lbnRzKCkgewogICAgICAgIGFzc2VydFRydWUoVW5pcXVlUGF0aHMudW5pcXVlUGF0aHMyKDYsIDIsIDYpKTsKICAgIH0KCiAgICBAVGVzdAogICAgdm9pZCB0ZXN0Rm9yU2V2ZW5FbGVtZW50cygpIHsKICAgICAgICBhc3NlcnRUcnVlKFVuaXF1ZVBhdGhzLnVuaXF1ZVBhdGhzMig1LCA5LCA0OTUpKTsKICAgIH0KCiAgICBAVGVzdAogICAgdm9pZCB0ZXN0Rm9yRWlnaHRFbGVtZW50cygpIHsKICAgICAgICBhc3NlcnRUcnVlKFVuaXF1ZVBhdGhzLnVuaXF1ZVBhdGhzMig0LCA4LCAxMjApKTsKICAgIH0KfQ==</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">YXV0aGVudGljYXRl</text>
+      </register>
+      <register name="." type="4">
+        <text encoding="base64">YXV0aA==</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">amFja3Nvbg==</text>
+      </register>
+      <register name="0" type="4">
+        <text encoding="base64">QFRlc3QKICAgIHZvaWQgdGVzdEZvclR3b0VsZW1lbnQoKSB7CiAgICAgICAgaW50W11bXSBkaXN0ID0ge3swLCA1LCAxMCwgMTV9LCB7NSwgMCwgMjAsIDMwfSwgezEwLCAyMCwgMCwgMzV9LCB7MTUsIDMwLCAzNSwgMH19OwogICAgICAgIGludCBzID0gZGlzdC5sZW5ndGg7CiAgICAgICAgaW50W11bXSBkcCA9IG5ldyBpbnRbMTw8c11bc107CiAgICAgICAgZm9yKGludFtdIGkgOiBkcCkKICAgICAgICAgICAgQXJyYXlzLmZpbGwoaSwtMSk7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDc1LFRyYXZlbGxpbmdTYWxlc21hbkJpdE1hbmlwdWxhdGlvbi50cmF2ZWxsaW5nU2FsZXNtYW5CaXRzKGRpc3QsMSwwLHMsZHApKTsKCiAgICB9</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuY2xvdWQubmV0ZmxpeC5ldXJla2EuRW5hYmxlRXVyZWthQ2xpZW50Owo=</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGhvc3RuYW1lOiBsb2NhbGhvc3QK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuZGF0YS5qcGEucmVwb3NpdG9yeS5KcGFSZXBvc2l0b3J5Owo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">dw==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">amFja3Nvbg==</last-search>
+      <last-pattern encoding="base64">amFja3Nvbg==</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+</application>

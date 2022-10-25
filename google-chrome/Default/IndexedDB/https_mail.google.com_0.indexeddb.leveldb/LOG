@@ -1,9 +1,21 @@
-2022/10/12-09:42:51.480 1986 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/10/12-09:42:51.481 1986 Recovering log #11
-2022/10/12-09:42:51.481 1986 Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000011.log 
-2022/10/12-09:42:59.615 1b47 Compacting 1@1 + 1@2 files
-2022/10/12-09:42:59.626 1b47 Generated table #14@1: 101 keys, 72172 bytes
-2022/10/12-09:42:59.626 1b47 Compacted 1@1 + 1@2 files => 72172 bytes
-2022/10/12-09:42:59.628 1b47 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/10/12-09:42:59.629 1b47 Delete type=2 #12
-2022/10/12-09:42:59.629 1b47 Delete type=2 #9
+2022/10/15-10:41:52.331 731 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/15-10:41:52.332 731 Recovering log #11
+2022/10/15-10:41:52.377 731 Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000011.log 
+2022/10/15-10:42:07.883 72c Level-0 table #17: started
+2022/10/15-10:42:07.927 72c Level-0 table #17: 2208956 bytes OK
+2022/10/15-10:42:07.932 72c Delete type=0 #11
+2022/10/15-10:42:25.921 72c Compacting 1@1 + 1@2 files
+2022/10/15-10:42:25.952 72c Generated table #18@1: 163 keys, 201302 bytes
+2022/10/15-10:42:25.952 72c Compacted 1@1 + 1@2 files => 201302 bytes
+2022/10/15-10:42:25.955 72c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/10/15-10:42:25.955 72c Delete type=2 #14
+2022/10/15-10:42:25.955 72c Delete type=2 #17
+2022/10/15-11:29:49.074 62c9 Level-0 table #20: started
+2022/10/15-11:29:49.125 62c9 Level-0 table #20: 2244508 bytes OK
+2022/10/15-11:29:49.132 62c9 Delete type=0 #16
+2022/10/15-11:30:00.253 62ca Compacting 1@1 + 1@2 files
+2022/10/15-11:30:00.283 62ca Generated table #21@1: 237 keys, 339430 bytes
+2022/10/15-11:30:00.283 62ca Compacted 1@1 + 1@2 files => 339430 bytes
+2022/10/15-11:30:00.289 62ca compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/10/15-11:30:00.291 62ca Delete type=2 #20
+2022/10/15-11:30:00.292 62ca Delete type=2 #18

@@ -1,0 +1,21 @@
+2022/10/22-12:31:19.521 3e1f Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/22-12:31:19.521 3e1f Recovering log #36
+2022/10/22-12:31:19.526 3e1f Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000036.log 
+2022/10/22-12:31:34.119 3e1f Level-0 table #44: started
+2022/10/22-12:31:34.156 3e1f Level-0 table #44: 1573474 bytes OK
+2022/10/22-12:31:34.159 3e1f Delete type=0 #36
+2022/10/22-12:31:34.163 3e1f Compacting 1@1 + 4@2 files
+2022/10/22-12:31:34.217 3e1f Generated table #45@1: 6259 keys, 2127231 bytes
+2022/10/22-12:31:34.266 3e1f Generated table #46@1: 2370 keys, 2121202 bytes
+2022/10/22-12:31:34.332 3e1f Generated table #47@1: 2194 keys, 2121718 bytes
+2022/10/22-12:31:34.377 3e1f Generated table #48@1: 1965 keys, 2126198 bytes
+2022/10/22-12:31:34.409 3e1f Generated table #49@1: 10299 keys, 1188878 bytes
+2022/10/22-12:31:34.409 3e1f Compacted 1@1 + 4@2 files => 9685227 bytes
+2022/10/22-12:31:34.412 3e1f compacted to: files[ 0 0 5 0 0 0 0 ]
+2022/10/22-12:31:34.413 3e1f Delete type=2 #38
+2022/10/22-12:31:34.413 3e1f Delete type=2 #40
+2022/10/22-12:31:34.413 3e1f Delete type=2 #39
+2022/10/22-12:31:34.413 3e1f Delete type=2 #44
+2022/10/22-12:31:34.413 3e1f Delete type=2 #41
+2022/10/22-12:32:26.330 3e3d Level-0 table #51: started
+2022/10/22-12:32:26.402 3e3d Level-0 table #51: 1766980 bytes OK

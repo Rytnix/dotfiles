@@ -1,0 +1,6 @@
+2022/10/20-20:48:56.503 2fc6 Creating DB /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.gadgetsnow.com_0.indexeddb.leveldb since it was missing.
+2022/10/20-20:48:56.510 2fc6 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.gadgetsnow.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/20-20:50:49.730 301d Level-0 table #5: started
+2022/10/20-20:50:49.733 301d Level-0 table #5: 1750 bytes OK
+2022/10/20-20:50:49.736 301d Delete type=0 #3
+2022/10/20-20:50:49.736 301d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

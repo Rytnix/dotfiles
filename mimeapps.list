@@ -10,6 +10,7 @@ application/x-theme=geany.desktop;
 application/json=geany.desktop;
 x-scheme-handler/http=xfce4-web-browser.desktop;
 x-scheme-handler/https=xfce4-web-browser.desktop;
+application/x-java-keystore=geany.desktop;
 
 [Default Applications]
 image/gif=viewnior.desktop
@@ -18,4 +19,3 @@ x-scheme-handler/http=xfce4-web-browser.desktop
 x-scheme-handler/https=xfce4-web-browser.desktop
 x-scheme-handler/postman=Postman.desktop
 x-scheme-handler/arctype=arctype.desktop
-

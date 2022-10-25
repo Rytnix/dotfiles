@@ -1,0 +1,459 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Java" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thealgorithms/dynamicprogramming/TravellingSalesmanBitManipulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1352">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/TravellingSalesmanBitManipulationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="24" column="24" selection-start-line="21" selection-start-column="16" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="27" lastUsed="1666071252550" />
+    </fileType>
+    <fileType name="Markdown">
+      <summary usageCount="3" lastUsed="1665910865837" />
+    </fileType>
+    <fileType name="XML">
+      <summary usageCount="1" lastUsed="1665907605772" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/test/java/com/thealgorithms/others/CountFriendsPairingTest.java" />
+      <option value="$PROJECT_DIR$/src/test/java/com/thealgorithms/others/UniquePathsTests.java" />
+      <option value="$PROJECT_DIR$/pom.xml" />
+      <option value="$PROJECT_DIR$/src/test/java/com/thealgorithms/others/TravellingSalesmanBitManipulationTests.java" />
+      <option value="$PROJECT_DIR$/DIRECTORY.md" />
+      <option value="$PROJECT_DIR$/src/main/java/com/thealgorithms/dynamicprogramming/TravellingSalesmanBitManipulation.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="27" lastUsage="1666071252550" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="3" lastUsage="1665910865837" />
+    </language>
+    <language id="XML">
+      <summary usageCount="1" lastUsage="1665907605772" />
+    </language>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Java" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Java" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Java" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thealgorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thealgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicprogramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thealgorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thealgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thealgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="JUnit.TravellingSalesmanBitManipulationTests" executorId="Run" />
+      <element setting="JUnit.TravellingSalesmanBitManipulationTests.testForOneElement" executorId="Run" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="Java-history" />
+    </option>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TravellingSalesmanBitManipulationTests_testForOneElement - 2022.10.16 at 13h 47m 32s.xml">
+      <configuration name="TravellingSalesmanBitManipulationTests.testForOneElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TravellingSalesmanBitManipulationTests - 2022.10.16 at 13h 50m 04s.xml">
+      <configuration name="TravellingSalesmanBitManipulationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TravellingSalesmanBitManipulationTests - 2022.10.16 at 13h 53m 03s.xml">
+      <configuration name="TravellingSalesmanBitManipulationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TravellingSalesmanBitManipulationTests - 2022.10.16 at 13h 54m 42s.xml">
+      <configuration name="TravellingSalesmanBitManipulationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TravellingSalesmanBitManipulationTests - 2022.10.16 at 13h 54m 58s.xml">
+      <configuration name="TravellingSalesmanBitManipulationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TravellingSalesmanBitManipulationTests - 2022.10.16 at 13h 56m 02s.xml">
+      <configuration name="TravellingSalesmanBitManipulationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TravellingSalesmanBitManipulationTests - 2022.10.16 at 14h 21m 25s.xml">
+      <configuration name="TravellingSalesmanBitManipulationTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6209000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.29465592" />
+      <window_info id="Learn" order="2" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" show_stripe_button="false" weight="0.33069164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="6" weight="0.33069164" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33069164" />
+      <window_info anchor="bottom" id="Endpoints" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Services" order="9" />
+      <window_info anchor="bottom" id="Profiler" order="10" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.33069164" />
+      <window_info anchor="bottom" id="Dependencies" order="12" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.32979503" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Notifications" order="2" weight="0.25" />
+    </layout>
+    <recentWindows>
+      <value>Terminal</value>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Maven</value>
+      <value>Build</value>
+      <value>Problems View</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="166" y="38" width="1024" height="730" key="#Project_Structure" timestamp="1665907816035">
+      <screen x="0" y="38" width="1366" height="730" />
+    </state>
+    <state x="166" y="38" width="1024" height="730" key="#Project_Structure/0.38.1366.730@0.38.1366.730" timestamp="1665907816034" />
+    <state x="466" y="161" width="424" height="490" key="FileChooserDialogImpl" timestamp="1665907733433">
+      <screen x="0" y="38" width="1366" height="730" />
+    </state>
+    <state x="466" y="161" width="424" height="490" key="FileChooserDialogImpl/0.38.1366.730@0.38.1366.730" timestamp="1665907733433" />
+    <state width="1318" height="201" key="GridCell.Tab.0.bottom" timestamp="1665912921727">
+      <screen x="0" y="38" width="1366" height="730" />
+    </state>
+    <state width="1318" height="201" key="GridCell.Tab.0.bottom/0.38.1366.730@0.38.1366.730" timestamp="1665912921727" />
+    <state width="1318" height="201" key="GridCell.Tab.0.center" timestamp="1665912921725">
+      <screen x="0" y="38" width="1366" height="730" />
+    </state>
+    <state width="1318" height="201" key="GridCell.Tab.0.center/0.38.1366.730@0.38.1366.730" timestamp="1665912921725" />
+    <state width="1318" height="201" key="GridCell.Tab.0.left" timestamp="1665912921724">
+      <screen x="0" y="38" width="1366" height="730" />
+    </state>
+    <state width="1318" height="201" key="GridCell.Tab.0.left/0.38.1366.730@0.38.1366.730" timestamp="1665912921724" />
+    <state width="1318" height="201" key="GridCell.Tab.0.right" timestamp="1665912921726">
+      <screen x="0" y="38" width="1366" height="730" />
+    </state>
+    <state width="1318" height="201" key="GridCell.Tab.0.right/0.38.1366.730@0.38.1366.730" timestamp="1665912921726" />
+    <state x="179" y="13" width="1024" height="730" key="SettingsEditor" timestamp="1665908024458">
+      <screen x="0" y="38" width="1366" height="730" />
+    </state>
+    <state x="179" y="13" width="1024" height="730" key="SettingsEditor/0.38.1366.730@0.38.1366.730" timestamp="1665908024458" />
+    <state x="416" y="111" width="524" height="590" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1665908348192">
+      <screen x="0" y="38" width="1366" height="730" />
+    </state>
+    <state x="416" y="111" width="524" height="590" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.38.1366.730@0.38.1366.730" timestamp="1665908348192" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thealgorithms/dynamicprogramming/UniquePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/PasswordGenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-571">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/UniquePathsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/CountFriendsPairingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/CountCharTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/ArrayLeftRotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/WorstFitCPUTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/FirstFitCPUTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/countSetBitsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIRECTORY.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="221" column="148" selection-start-line="221" selection-start-column="148" selection-end-line="221" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/CalculateMaxOfMinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/BestFitCPUTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thealgorithms/dynamicprogramming/TravellingSalesmanBitManipulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thealgorithms/others/TravellingSalesmanBitManipulationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="24" column="24" selection-start-line="21" selection-start-column="16" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI" />
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

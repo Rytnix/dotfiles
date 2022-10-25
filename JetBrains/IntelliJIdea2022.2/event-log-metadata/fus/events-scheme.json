@@ -317,18 +317,19 @@
       "event_data" : {
         "column" : [ "{util#spark_monitoring_column_name}" ],
         "field" : [ "{enum#__field}" ],
-        "name" : [ "{enum:Applications|Spark_properties|System_properties|Classpath_entries|Runtime|Tasks|Tasks_summary}", "{enum:StageDetails|StageTasks}", "{enum#__name}" ],
-        "running_applications" : [ "{enum#__running_applications}" ],
-        "total_applications" : [ "{enum#__running_applications}" ],
+        "name" : [ "{enum:Applications|Spark_properties|System_properties|Classpath_entries|Runtime|Tasks|Tasks_summary}", "{enum:TasksSummary}", "{enum:StageDetails|StageTasks}", "{enum#__name}" ],
+        "running_applications" : [ "{enum#__running_applications}", "{enum#__total_applications}" ],
+        "total_applications" : [ "{enum#__running_applications}", "{enum#__total_applications}" ],
         "type" : [ "{enum#__type}", "{enum:JobStatus|ApplicationStatus|SqlStatus|StageStatus}", "{enum:CreateConnection|OpenUrl|OpenSettings|Refresh}" ],
         "value" : [ "{enum#boolean}" ]
       },
       "enums" : {
         "__event_id" : [ "columns.visibility.changed", "connected", "panel.expanded", "block.shown", "page.selected", "state.filter.changed", "toolbar.action.invoked" ],
         "__field" : [ "Succeeded", "Active", "Unknown", "Complete", "Failed", "Skipped", "Running", "Completed", "Pending" ],
-        "__name" : [ "Storage", "Jobs", "Stages", "Environment", "Executors", "SQL", "Unknown" ],
+        "__name" : [ "Storage", "Jobs", "Stages", "Environment", "Executors", "SQL", "Unknown", "EXECUTORS", "JOBS", "STORAGES", "STAGES", "ENVIRONMENT", "UNKNOWN" ],
         "__running_applications" : [ "0", "1", "2_5", "6_15", "16_30", "31_more" ],
-        "__type" : [ "TaskColumns", "SqlColumns", "ExecutorColumns", "JobColumns", "StageColumns", "ApplicationColumns", "StorageColumns" ]
+        "__total_applications" : [ "INTERVAL_2_5", "INTERVAL_1", "INTERVAL_0", "INTERVAL_16_30", "INTERVAL_6_15", "INTERVAL_31_MORE" ],
+        "__type" : [ "TaskColumns", "SqlColumns", "ExecutorColumns", "JobColumns", "StageColumns", "ApplicationColumns", "StorageColumns", "Task", "Executor", "Storage", "Stage", "Job", "Application", "Sql" ]
       }
     }
   }, {
@@ -7310,5 +7311,5 @@
       "version" : "Unknown|unknown.format|unknown|UNKNOWN|((\\d+\\.?)*\\d+)"
     }
   },
-  "version" : "2772"
+  "version" : "2776"
 }

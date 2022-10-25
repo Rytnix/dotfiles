@@ -1,0 +1,7 @@
+2022/10/22-19:16:43.210 4437 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/22-19:16:43.210 4437 Recovering log #43
+2022/10/22-19:16:43.247 4437 Level-0 table #51: started
+2022/10/22-19:16:43.289 4437 Level-0 table #51: 1766980 bytes OK
+2022/10/22-19:16:43.290 4437 Recovering log #50
+2022/10/22-19:16:43.290 4437 Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000050.log 
+2022/10/22-19:16:43.294 4437 Delete type=0 #43

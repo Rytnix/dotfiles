@@ -1,3 +1,15 @@
-2022/10/12-23:45:31.740 5abc Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Extension State/MANIFEST-000001
-2022/10/12-23:45:31.741 5abc Recovering log #132
-2022/10/12-23:45:31.743 5abc Reusing old log /home/utkarsh/.config/google-chrome/Default/Extension State/000132.log 
+2022/10/22-20:24:52.905 464 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2022/10/22-20:24:52.907 464 Recovering log #257
+2022/10/22-20:24:52.919 464 Reusing old log /home/utkarsh/.config/google-chrome/Default/Extension State/000257.log 
+2022/10/22-20:44:04.759 a47 Level-0 table #261: started
+2022/10/22-20:44:04.803 a47 Level-0 table #261: 3875833 bytes OK
+2022/10/22-20:44:04.807 a47 Delete type=0 #257
+2022/10/22-20:44:04.807 a47 Compacting 4@0 + 1@1 files
+2022/10/22-20:44:04.858 a47 Generated table #262@0: 5 keys, 14957 bytes
+2022/10/22-20:44:04.858 a47 Compacted 4@0 + 1@1 files => 14957 bytes
+2022/10/22-20:44:04.860 a47 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/22-20:44:04.861 a47 Delete type=2 #261
+2022/10/22-20:44:04.861 a47 Delete type=2 #250
+2022/10/22-20:44:04.861 a47 Delete type=2 #255
+2022/10/22-20:44:04.861 a47 Delete type=2 #253
+2022/10/22-20:44:04.861 a47 Delete type=2 #258

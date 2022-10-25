@@ -19,7 +19,7 @@
   <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="true"/>
-  <property name="sidebarWidth" value="150"/>
+  <property name="sidebarWidth" value="358"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
   <property name="menubarVisible" value="true"/>
@@ -156,6 +156,10 @@
     <data name="SynPS/2 Synaptics TouchPad">
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="6"/>
+    </data>
+    <data name="UGTABLET 6 inch PenTablet Eraser (0)">
+      <attribute name="deviceClass" type="int" value="3"/>
+      <attribute name="deviceSource" type="int" value="2"/>
     </data>
     <data name="UGTABLET 6 inch PenTablet Mouse">
       <attribute name="deviceClass" type="int" value="2"/>

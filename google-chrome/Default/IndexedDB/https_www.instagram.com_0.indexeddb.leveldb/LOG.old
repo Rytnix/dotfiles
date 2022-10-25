@@ -1,0 +1,7 @@
+2022/10/16-11:34:38.653 369b Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/16-11:34:38.653 369b Recovering log #3
+2022/10/16-11:34:38.653 369b Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000003.log 
+2022/10/16-12:02:33.176 3ce5 Level-0 table #5: started
+2022/10/16-12:02:33.179 3ce5 Level-0 table #5: 7662 bytes OK
+2022/10/16-12:02:33.182 3ce5 Delete type=0 #3
+2022/10/16-12:02:33.182 3ce5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

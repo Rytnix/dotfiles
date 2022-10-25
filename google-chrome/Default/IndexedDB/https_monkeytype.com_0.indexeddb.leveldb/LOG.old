@@ -1,0 +1,36 @@
+2022/10/16-08:56:25.957 448 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/16-08:56:25.958 448 Recovering log #11
+2022/10/16-08:56:25.958 448 Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000011.log 
+2022/10/16-08:56:25.958 448 Delete type=2 #10
+2022/10/16-08:56:26.967 420 Level-0 table #16: started
+2022/10/16-08:56:26.970 420 Level-0 table #16: 2219 bytes OK
+2022/10/16-08:56:26.973 420 Delete type=0 #11
+2022/10/16-08:56:26.973 420 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 315 : 1
+2022/10/16-08:56:26.973 420 Compacting 1@0 + 1@1 files
+2022/10/16-08:56:26.977 420 Generated table #17@0: 98 keys, 2331 bytes
+2022/10/16-08:56:26.977 420 Compacted 1@0 + 1@1 files => 2331 bytes
+2022/10/16-08:56:26.980 420 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/16-08:56:26.980 420 Delete type=2 #16
+2022/10/16-08:56:26.980 420 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 315 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/10/16-08:58:07.611 452 Level-0 table #19: started
+2022/10/16-08:58:07.614 452 Level-0 table #19: 2201 bytes OK
+2022/10/16-08:58:07.616 452 Delete type=0 #15
+2022/10/16-08:58:07.616 452 Delete type=2 #13
+2022/10/16-08:58:07.618 452 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 372 : 1
+2022/10/16-08:58:07.618 452 Compacting 1@0 + 1@1 files
+2022/10/16-08:58:07.620 452 Generated table #20@0: 114 keys, 2475 bytes
+2022/10/16-08:58:07.620 452 Compacted 1@0 + 1@1 files => 2475 bytes
+2022/10/16-08:58:07.623 452 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/16-08:58:07.623 452 Delete type=2 #19
+2022/10/16-08:58:07.623 452 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 372 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/10/16-08:58:43.940 456 Level-0 table #22: started
+2022/10/16-08:58:43.944 456 Level-0 table #22: 2208 bytes OK
+2022/10/16-08:58:43.947 456 Delete type=0 #18
+2022/10/16-08:58:43.947 456 Delete type=2 #17
+2022/10/16-08:58:43.947 456 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 429 : 1
+2022/10/16-08:58:43.947 456 Compacting 1@0 + 1@1 files
+2022/10/16-08:58:43.950 456 Generated table #23@0: 130 keys, 2642 bytes
+2022/10/16-08:58:43.950 456 Compacted 1@0 + 1@1 files => 2642 bytes
+2022/10/16-08:58:43.952 456 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/16-08:58:43.952 456 Delete type=2 #22
+2022/10/16-08:58:43.952 456 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 429 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

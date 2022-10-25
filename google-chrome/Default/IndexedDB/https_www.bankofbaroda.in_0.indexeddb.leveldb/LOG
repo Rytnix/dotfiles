@@ -1,0 +1,6 @@
+2022/10/18-21:38:06.312 246e Creating DB /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.bankofbaroda.in_0.indexeddb.leveldb since it was missing.
+2022/10/18-21:38:06.318 246e Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_www.bankofbaroda.in_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/18-21:38:15.230 269a Level-0 table #5: started
+2022/10/18-21:38:15.233 269a Level-0 table #5: 567 bytes OK
+2022/10/18-21:38:15.236 269a Delete type=0 #3
+2022/10/18-21:38:15.236 269a Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

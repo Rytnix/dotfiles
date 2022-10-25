@@ -1,0 +1,6 @@
+2022/10/11-23:45:54.823 1955d Creating DB /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_content.wisestep.com_0.indexeddb.leveldb since it was missing.
+2022/10/11-23:45:54.830 1955d Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_content.wisestep.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/11-23:55:53.494 198cc Level-0 table #5: started
+2022/10/11-23:55:53.497 198cc Level-0 table #5: 8793 bytes OK
+2022/10/11-23:55:53.499 198cc Delete type=0 #3
+2022/10/11-23:55:53.500 198cc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

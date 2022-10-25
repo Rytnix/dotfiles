@@ -1,0 +1,7 @@
+2022/10/22-12:04:55.548 37b6 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_in.store.asus.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/22-12:04:55.548 37b6 Recovering log #3
+2022/10/22-12:04:55.549 37b6 Reusing old log /home/utkarsh/.config/google-chrome/Default/IndexedDB/https_in.store.asus.com_0.indexeddb.leveldb/000003.log 
+2022/10/22-12:06:42.541 37b6 Level-0 table #5: started
+2022/10/22-12:06:42.543 37b6 Level-0 table #5: 872 bytes OK
+2022/10/22-12:06:42.546 37b6 Delete type=0 #3
+2022/10/22-12:06:42.546 37b6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -15,35 +15,87 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service">
+        <entry key="$USER_HOME$/Library/Java/src/main/java/com/thealgorithms/others">
           <value>
-            <RecentProjectMetaInfo frameTitle="Authenticate-Service – OtpRequestService.java" projectWorkspaceId="2FRXr7IoRJ5JA5KsIwRUbtvvMVO">
-              <option name="activationTimestamp" value="1665582378447" />
+            <RecentProjectMetaInfo frameTitle="others" projectWorkspaceId="2GCum0QPOFncONM3pBG539ISJED">
+              <option name="activationTimestamp" value="1665905100682" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-222.4345.14" />
-              <option name="buildTimestamp" value="1664946103501" />
+              <option name="buildTimestamp" value="1664946104761" />
               <frame x="0" y="38" width="1366" height="730" extendedState="6" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1665491054483" />
+              <option name="projectOpenTimestamp" value="1665851071187" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Library/test">
+          <value>
+            <RecentProjectMetaInfo frameTitle="test – TravellingSalesmanBitmanipulation.java" projectWorkspaceId="2GAvOq4DPT7l5BW6UIUa3e4KAo6">
+              <option name="activationTimestamp" value="1665851067899" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-222.4345.14" />
+              <option name="buildTimestamp" value="1664946104761" />
+              <frame x="0" y="38" width="1366" height="730" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1665850376037" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Library/Java">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Java – TravellingSalesmanBitManipulationTests.java" projectWorkspaceId="2GCutegzoRKWtMQ1Xg4qqO8EW7U">
+              <option name="activationTimestamp" value="1666071325731" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-222.4345.14" />
+              <option name="buildTimestamp" value="1664946114651" />
+              <frame x="0" y="38" width="1366" height="730" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1665905103755" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
         <entry key="$USER_HOME$/Library/gspintegration">
           <value>
-            <RecentProjectMetaInfo frameTitle="gspintegration – application.yml" opened="true" projectWorkspaceId="2Fw1sOxhuCCdhJOutuOwslVllwU">
-              <option name="activationTimestamp" value="1665586190045" />
+            <RecentProjectMetaInfo frameTitle="gspintegration – application.yml" projectWorkspaceId="2G4NI8knKA9qZYZsWL44QGZGkQo">
+              <option name="activationTimestamp" value="1666080341111" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-222.4345.14" />
-              <option name="buildTimestamp" value="1664946076070" />
+              <option name="buildTimestamp" value="1664946065569" />
               <frame x="0" y="38" width="1366" height="730" extendedState="6" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1665582379848" />
+              <option name="projectOpenTimestamp" value="1666078459821" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Library/Service-Registry">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Service-Registry – pom.xml (Service-Registry)" projectWorkspaceId="2GINABbfgTGly2Z9nkR9F851fWU">
+              <option name="activationTimestamp" value="1666080684898" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-222.4345.14" />
+              <option name="buildTimestamp" value="1664946065569" />
+              <frame x="0" y="38" width="1366" height="730" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1666080377244" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Authenticate-Service – OtpFeignService.java" opened="true" projectWorkspaceId="2FRXr7IoRJ5JA5KsIwRUbtvvMVO">
+              <option name="activationTimestamp" value="1666100513107" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-222.4345.14" />
+              <option name="buildTimestamp" value="1664946065569" />
+              <frame x="0" y="38" width="1366" height="730" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1666080686364" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/Library/gspintegration" />
+    <option name="lastOpenedProject" value="$USER_HOME$/Documents/production/Proeffico-gst/Authenticate-Service" />
     <option name="lastProjectLocation" value="$USER_HOME$/Library" />
   </component>
 </application>

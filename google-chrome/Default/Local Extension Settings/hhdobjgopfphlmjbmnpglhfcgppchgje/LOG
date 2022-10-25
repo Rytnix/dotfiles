@@ -1,3 +1,5 @@
-2022/10/12-23:45:32.476 5a92 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/hhdobjgopfphlmjbmnpglhfcgppchgje/MANIFEST-000001
-2022/10/12-23:45:32.476 5a92 Recovering log #4
-2022/10/12-23:45:32.486 5a92 Reusing old log /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/hhdobjgopfphlmjbmnpglhfcgppchgje/000004.log 
+2022/10/22-20:24:53.609 495 Reusing MANIFEST /home/utkarsh/.config/google-chrome/Default/Local Extension Settings/hhdobjgopfphlmjbmnpglhfcgppchgje/MANIFEST-000001
+2022/10/22-20:24:53.611 495 Recovering log #23
+2022/10/22-20:24:53.641 495 Level-0 table #26: started
+2022/10/22-20:24:53.679 495 Level-0 table #26: 631941 bytes OK
+2022/10/22-20:24:53.683 495 Delete type=0 #23
